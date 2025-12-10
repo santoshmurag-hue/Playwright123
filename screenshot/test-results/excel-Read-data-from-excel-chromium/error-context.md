@@ -1,0 +1,181 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e8]:
+      - button "Practice Session" [ref=e10] [cursor=pointer]
+      - combobox [ref=e13]:
+        - option "UI" [selected]
+        - option "API"
+        - option "DataBase"
+        - option "UI Integrations"
+  - generic [ref=e14]:
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - article [ref=e18]:
+          - complementary [ref=e19]:
+            - article [ref=e20]:
+              - complementary [ref=e21]:
+                - figure [ref=e22]:
+                  - img "signin" [ref=e24]
+                - generic [ref=e26]: Write a script to enter data into Text field?
+              - complementary [ref=e27]:
+                - generic [ref=e29]:
+                  - heading "Register" [level=1] [ref=e30]
+                  - generic [ref=e31]:
+                    - generic [ref=e32]:
+                      - generic [ref=e33]: Name
+                      - textbox "Name" [ref=e34]:
+                        - /placeholder: Enter your name
+                    - generic [ref=e35]:
+                      - generic [ref=e36]: Email Id
+                      - textbox "Email Id" [ref=e37]:
+                        - /placeholder: Enter Your Email
+                    - generic [ref=e38]:
+                      - generic [ref=e39]: Password
+                      - generic [ref=e40]:
+                        - textbox "Password" [ref=e41]:
+                          - /placeholder: Enter your password
+                        - img "Show Password" [ref=e43] [cursor=pointer]
+                    - generic [ref=e45]:
+                      - generic [ref=e46]:
+                        - paragraph [ref=e47]: Already have an account ?
+                        - link "Login Now" [ref=e48] [cursor=pointer]:
+                          - /url: /ui/login
+                      - button "Register" [ref=e49] [cursor=pointer]
+        - article [ref=e50]:
+          - paragraph [ref=e52]: Scenarios
+          - main [ref=e54]:
+            - complementary [ref=e55]:
+              - paragraph [ref=e56]: Write a script to enter data into Text field?
+              - img [ref=e57]
+            - complementary [ref=e62]:
+              - paragraph [ref=e63] [cursor=pointer]: Write a script to Enter data into text field which is having same attributes as other text field ?
+              - img [ref=e64]
+            - complementary [ref=e69]:
+              - paragraph [ref=e70]: Write a script to Enter data into text field which is having a default value?
+              - img [ref=e71]
+            - complementary [ref=e76]:
+              - paragraph [ref=e77]: Write a script to validate placeholder is present in the text field?
+              - img [ref=e78]
+            - complementary [ref=e83]:
+              - paragraph [ref=e84]: Write a script to capture data from the text field in the console that you have sent?
+              - img [ref=e85]
+            - complementary [ref=e90]:
+              - paragraph [ref=e91]: Write a script to enter data into disabled text field?
+              - img [ref=e92]
+            - complementary [ref=e97]:
+              - paragraph [ref=e98]: Write a script to click on the "hide password" icon?
+              - img [ref=e99]
+            - complementary [ref=e104]:
+              - paragraph [ref=e105]: Write a script to click on the "show password" icon?
+              - img [ref=e106]
+        - complementary [ref=e112]:
+          - generic [ref=e113]:
+            - paragraph [ref=e114]: Actions
+            - list [ref=e115]:
+              - listitem [ref=e116] [cursor=pointer]: With placeholder
+              - listitem [ref=e117] [cursor=pointer]: Without placeholder
+              - listitem [ref=e118] [cursor=pointer]: With ToolTip
+              - listitem [ref=e119] [cursor=pointer]: Multiline Text Area
+              - listitem [ref=e120] [cursor=pointer]: Disabled
+    - complementary [ref=e121]:
+      - generic [ref=e122]:
+        - generic [ref=e126]:
+          - img "searchIcon" [ref=e128]
+          - textbox "Search..." [ref=e130]
+        - list [ref=e133]:
+          - listitem [ref=e134] [cursor=pointer]:
+            - generic [ref=e135]: Web Elements
+            - img [ref=e137]
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - link "Text Field" [ref=e142] [cursor=pointer]:
+                - /url: /ui
+                - generic [ref=e143]: Text Field
+            - listitem [ref=e145]:
+              - link "Button" [ref=e146] [cursor=pointer]:
+                - /url: /ui/button
+                - generic [ref=e147]: Button
+            - listitem [ref=e149]:
+              - link "Link" [ref=e150] [cursor=pointer]:
+                - /url: /ui/link
+                - generic [ref=e151]: Link
+            - listitem [ref=e153]:
+              - link "Check Box" [ref=e154] [cursor=pointer]:
+                - /url: /ui/checkbox
+                - generic [ref=e155]: Check Box
+            - listitem [ref=e157]:
+              - link "Radio Button" [ref=e158] [cursor=pointer]:
+                - /url: /ui/radio
+                - generic [ref=e159]: Radio Button
+            - listitem [ref=e161]:
+              - link "Image" [ref=e162] [cursor=pointer]:
+                - /url: /ui/image
+                - generic [ref=e163]: Image
+            - listitem [ref=e165]:
+              - link "Toggle" [ref=e166] [cursor=pointer]:
+                - /url: /ui/toggle
+                - generic [ref=e167]: Toggle
+            - listitem [ref=e169]:
+              - link "Slider" [ref=e170] [cursor=pointer]:
+                - /url: /ui/slider
+                - generic [ref=e171]: Slider
+            - listitem [ref=e173]:
+              - link "Dropdown" [ref=e174] [cursor=pointer]:
+                - /url: /ui/dropdown
+                - generic [ref=e175]: Dropdown
+            - listitem [ref=e177]:
+              - link "Web Table" [ref=e178] [cursor=pointer]:
+                - /url: /ui/table
+                - generic [ref=e179]: Web Table
+            - listitem [ref=e181]:
+              - link "FormValidation" [ref=e182] [cursor=pointer]:
+                - /url: /ui/formValidation
+                - generic [ref=e183]: FormValidation
+            - listitem [ref=e185]:
+              - link "Captcha" [ref=e186] [cursor=pointer]:
+                - /url: /ui/captcha
+                - generic [ref=e187]: Captcha
+            - listitem [ref=e189]:
+              - link "Audio" [ref=e190] [cursor=pointer]:
+                - /url: /ui/audio
+                - generic [ref=e191]: Audio
+            - listitem [ref=e193]:
+              - link "Video" [ref=e194] [cursor=pointer]:
+                - /url: /ui/video
+                - generic [ref=e195]: Video
+          - listitem [ref=e197] [cursor=pointer]:
+            - generic [ref=e198]: X Path
+            - img [ref=e200]
+          - listitem [ref=e202] [cursor=pointer]:
+            - generic [ref=e203]: Popups
+            - img [ref=e205]
+          - listitem [ref=e207] [cursor=pointer]:
+            - generic [ref=e208]: Date & Time Picker
+            - img [ref=e210]
+          - listitem [ref=e212] [cursor=pointer]:
+            - generic [ref=e213]: Scroll
+            - img [ref=e215]
+          - listitem [ref=e217] [cursor=pointer]:
+            - generic [ref=e218]: Synchronization
+            - img [ref=e220]
+          - listitem [ref=e222] [cursor=pointer]:
+            - generic [ref=e223]: Frames
+            - img [ref=e225]
+          - listitem [ref=e227] [cursor=pointer]:
+            - generic [ref=e228]: Mouse Actions
+            - img [ref=e230]
+          - listitem [ref=e232] [cursor=pointer]:
+            - generic [ref=e233]: Keyboard Actions
+            - img [ref=e235]
+          - listitem [ref=e237] [cursor=pointer]:
+            - generic [ref=e238]: Shadow Root Elements
+            - img [ref=e240]
+          - listitem [ref=e242] [cursor=pointer]:
+            - generic [ref=e243]: Others
+            - img [ref=e245]
+```

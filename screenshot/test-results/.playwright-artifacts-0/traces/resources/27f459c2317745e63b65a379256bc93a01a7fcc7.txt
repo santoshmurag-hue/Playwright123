@@ -1,0 +1,1 @@
+{"rid":"5MQKCE1SN4FKH1XW5DE2","sid":"521-8199698-4997021","mid":"A21TJRUUN4KGV","sn":"www.amazon.in","reqs":[{"cel":{"k":"res_mcm","t":1406,"m":223}},{"csm":{"k":"chk","f":1,"l":{"cel":1,"csm":1},"s":"full"}}]}

@@ -1,0 +1,2324 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [ref=e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=e11]
+    - list "Keyboard shortcuts" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Search, alt, forward slash" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e15]:
+            - generic [ref=e16]: Search
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Cart, shift, alt, c" [ref=e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e23]:
+            - generic [ref=e24]: Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Home, shift, alt, h" [ref=e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e33]:
+            - generic [ref=e34]: Home
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Your orders, shift, alt, o" [ref=e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e43]:
+            - generic [ref=e44]: Orders
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Show/Hide shortcuts
+            - generic [ref=e55]:
+              - generic [ref=e56]: shift
+              - generic [ref=e57]: +
+              - generic [ref=e58]: alt
+              - generic [ref=e59]: +
+              - generic [ref=e60]: Z
+    - generic [ref=e66]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e67]:
+    - navigation "Primary" [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link "Amazon.in" [ref=e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Bengaluru 562130 Update location" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: Delivering to Bengaluru 562130
+              - generic [ref=e79]: Update location
+        - search [ref=e82]:
+          - generic [ref=e85]:
+            - generic [ref=e87]: All
+            - combobox "Select the department you want to search in" [ref=e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e92]: samsung mobile phone under 20000
+          - generic "Go" [ref=e95] [cursor=pointer]:
+            - button "Go" [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e100] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e103]:
+                - img "India" [ref=e104]
+                - generic [ref=e105]: EN
+            - button "Expand to Change Language or Country" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - link "Hello, sign in Account & Lists" [ref=e108] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26crid%3D2W9DBRZ4TKZZS%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e110]: Hello, sign in
+              - generic [ref=e111]: Account & Lists
+            - button "Expand Account and Lists" [ref=e112] [cursor=pointer]
+          - link "Returns & Orders" [ref=e113] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e114]: Returns
+            - generic [ref=e115]: "& Orders"
+          - link "0 items in cart" [ref=e116] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e118]: "0"
+            - generic [ref=e121]: Cart
+      - generic [ref=e122]:
+        - button "Open All Categories Menu" [ref=e124] [cursor=pointer]:
+          - generic [ref=e126]: All
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - generic [ref=e132]:
+              - link "Fresh" [ref=e133] [cursor=pointer]:
+                - /url: /fresh?ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e134] [cursor=pointer]
+          - listitem [ref=e135]:
+            - link "MX Player" [ref=e137] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e138]:
+            - link "Sell" [ref=e140] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e141]:
+            - link "Bestsellers" [ref=e143] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e144]:
+            - link "Mobiles" [ref=e146] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e147]:
+            - link "Today's Deals" [ref=e149] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e150]:
+            - link "Customer Service" [ref=e152] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e153]:
+            - generic [ref=e154]:
+              - link "Prime" [ref=e155] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e156] [cursor=pointer]
+          - listitem [ref=e157]:
+            - link "New Releases" [ref=e159] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e160]:
+            - link "Amazon Pay" [ref=e162] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e163]:
+            - link "Electronics" [ref=e165] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e166]:
+            - link "Fashion" [ref=e168] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e169]:
+            - link "Home & Kitchen" [ref=e171] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e172]:
+            - link "Books" [ref=e174] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e175]:
+            - link "Computers" [ref=e177] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e178]:
+            - link "Beauty & Personal Care" [ref=e180] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e181]:
+            - link "Car & Motorbike" [ref=e183] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e184]:
+            - link "Gift Cards" [ref=e186] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e187]:
+            - link "Home Improvement" [ref=e189] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e190]:
+            - link "Toys & Games" [ref=e192] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e193]:
+            - link "Grocery & Gourmet Foods" [ref=e195] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e196]:
+            - link "Custom Products" [ref=e198] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e199]:
+            - link "Sports, Fitness & Outdoors" [ref=e201] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e202]:
+            - link "Health, Household & Personal Care" [ref=e204] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e205]:
+            - link "Video Games" [ref=e207] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e208]:
+            - link "Baby" [ref=e210] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e211]:
+            - link "AmazonBasics" [ref=e213] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e214]:
+            - link "Audible" [ref=e216] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e217]:
+            - link "Pet Supplies" [ref=e219] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e220]:
+            - link "Subscribe & Save" [ref=e222] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e223]:
+            - link "Kindle eBooks" [ref=e225] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e226]:
+            - link "Flights" [ref=e228] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+      - dialog [ref=e231]
+  - generic [ref=e233]:
+    - 'heading "1-16 of 487 results for \"samsung mobile phone under 20000\" Sort by: Featured" [level=1] [ref=e236]':
+      - generic [ref=e237]:
+        - heading "1-16 of 487 results for \"samsung mobile phone under 20000\"" [level=2] [ref=e242]
+        - generic [ref=e247]:
+          - generic [ref=e248]: "Sort by:"
+          - combobox "Sort by:" [ref=e249]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=e252] [cursor=pointer]: Sort by:Featured
+    - generic [ref=e254]:
+      - generic [ref=e256]:
+        - generic [ref=e258]:
+          - generic [ref=e260]:
+            - generic [ref=e263]:
+              - heading "Results" [level=2] [ref=e264]
+              - generic [ref=e265]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=e266]:
+                  - generic [ref=e274]:
+                    - link [ref=e280] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDYyMjUyMjQwODczMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDB8V6PS%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-1-spons%26aref%3D19hPYa2lnM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=19hPYa2lnM&sp_cr=ZAZ
+                      - img [ref=e282]
+                    - generic [ref=e285]:
+                      - generic [ref=e286]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e289] [cursor=pointer]:
+                          - generic [ref=e290]: Sponsored
+                        - link "Sponsored Ad - Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 256 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e292] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDYyMjUyMjQwODczMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDB8V6PS%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-1-spons%26aref%3D19hPYa2lnM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=19hPYa2lnM&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 256 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e293]: Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 256 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e294]:
+                        - generic [ref=e295]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e297] [cursor=pointer]:
+                            - generic [ref=e299]: 3.9 out of 5 stars
+                          - link "3,219 ratings" [ref=e301] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDYyMjUyMjQwODczMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDB8V6PS%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-1-spons%26aref%3D19hPYa2lnM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=19hPYa2lnM&sp_cr=ZAZ#customerReviews
+                            - text: (3.2K)
+                        - generic [ref=e302]: 500+ bought in past month
+                      - generic [ref=e305]:
+                        - generic [ref=e306]:
+                          - generic [ref=e308]:
+                            - generic [ref=e309]: Price, product page
+                            - 'link "₹21,999 M.R.P: ₹29,999 M.R.P: ₹29,999" [ref=e310] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDYyMjUyMjQwODczMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDB8V6PS%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-1-spons%26aref%3D19hPYa2lnM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=19hPYa2lnM&sp_cr=ZAZ
+                              - generic [ref=e311]:
+                                - generic [ref=e312]: ₹21,999
+                                - generic [ref=e313]: ₹21,999
+                              - generic [ref=e314]: "M.R.P: ₹29,999"
+                              - generic [ref=e315]:
+                                - text: "M.R.P:"
+                                - generic [ref=e316]:
+                                  - generic [ref=e317]: ₹29,999
+                                  - text: ₹29,999
+                            - text: (27% off)
+                          - generic [ref=e320]:
+                            - generic [ref=e321]: Save ₹500
+                            - text: with coupon
+                        - generic [ref=e328]: FREE delivery Fri, 12 Dec
+                        - button "Add to cart" [ref=e346] [cursor=pointer]
+                        - group "colours available" [ref=e348]:
+                          - list
+                          - link "+2 other colors/patterns" [ref=e350] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDYyMjUyMjQwODczMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDB8V6PS%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-1-spons%26aref%3D19hPYa2lnM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=19hPYa2lnM&sp_cr=ZAZ
+                - listitem [ref=e353]:
+                  - generic [ref=e361]:
+                    - link [ref=e367] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDc3NDIyODI3NTUzMjo6MDo6&url=%2FSamsung-Moonlight-Storage-Gorilla-Upgrades%2Fdp%2FB0FN7WFPFD%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-2-spons%26aref%3DOzYzOz3aoK%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=OzYzOz3aoK&sp_cr=ZAZ
+                      - img [ref=e369]
+                    - generic [ref=e372]:
+                      - generic [ref=e373]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e376] [cursor=pointer]:
+                          - generic [ref=e377]: Sponsored
+                        - link "Sponsored Ad - Samsung Galaxy M17 5G (Moonlight Silver, 8GB RAM, 128GB Storage)| 50MP OIS Triple Camera| Gorilla Glass Victus| IP54 Rating| 6 Gen of OS Upgrades| AI| Circle to Search| Gemini Live| Without Charger" [ref=e379] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDc3NDIyODI3NTUzMjo6MDo6&url=%2FSamsung-Moonlight-Storage-Gorilla-Upgrades%2Fdp%2FB0FN7WFPFD%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-2-spons%26aref%3DOzYzOz3aoK%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=OzYzOz3aoK&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Samsung Galaxy M17 5G (Moonlight Silver, 8GB RAM, 128GB Storage)| 50MP OIS Triple Camera| Gorilla Glass Victus| IP54 Rating| 6 Gen of OS Upgrades| AI| Circle to Search| Gemini Live| Without Charger" [level=2] [ref=e380]: Samsung Galaxy M17 5G (Moonlight Silver, 8GB RAM, 128GB Storage)| 50MP OIS Triple Camera| Gorilla Glass Victus| IP54 Rating| 6 Gen of OS Upgrades| AI| Circle to Search| Gemini Live| Without Charger
+                      - generic [ref=e381]:
+                        - generic [ref=e382]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e384] [cursor=pointer]:
+                            - generic [ref=e386]: 4.1 out of 5 stars
+                          - link "428 ratings" [ref=e388] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDc3NDIyODI3NTUzMjo6MDo6&url=%2FSamsung-Moonlight-Storage-Gorilla-Upgrades%2Fdp%2FB0FN7WFPFD%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-2-spons%26aref%3DOzYzOz3aoK%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=OzYzOz3aoK&sp_cr=ZAZ#customerReviews
+                            - text: (428)
+                        - generic [ref=e389]: 1K+ bought in past month
+                      - generic [ref=e392]:
+                        - generic [ref=e393]:
+                          - generic [ref=e395]:
+                            - generic [ref=e396]: Price, product page
+                            - 'link "₹15,499 M.R.P: ₹19,499 M.R.P: ₹19,499" [ref=e397] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDc3NDIyODI3NTUzMjo6MDo6&url=%2FSamsung-Moonlight-Storage-Gorilla-Upgrades%2Fdp%2FB0FN7WFPFD%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-2-spons%26aref%3DOzYzOz3aoK%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=OzYzOz3aoK&sp_cr=ZAZ
+                              - generic [ref=e398]:
+                                - generic [ref=e399]: ₹15,499
+                                - generic [ref=e400]: ₹15,499
+                              - generic [ref=e401]: "M.R.P: ₹19,499"
+                              - generic [ref=e402]:
+                                - text: "M.R.P:"
+                                - generic [ref=e403]:
+                                  - generic [ref=e404]: ₹19,499
+                                  - text: ₹19,499
+                            - text: (21% off)
+                          - generic [ref=e408]:
+                            - generic [ref=e409]: Save extra with No Cost EMI
+                            - generic [ref=e410]: Save extra with No Cost EMI
+                        - generic [ref=e413]:
+                          - generic [ref=e417]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e419]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e435] [cursor=pointer]
+                        - group "colours available" [ref=e437]:
+                          - list
+                          - link "+1 other color/pattern" [ref=e439] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfYXRmOjMwMDc3NDIyODI3NTUzMjo6MDo6&url=%2FSamsung-Moonlight-Storage-Gorilla-Upgrades%2Fdp%2FB0FN7WFPFD%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-2-spons%26aref%3DOzYzOz3aoK%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=OzYzOz3aoK&sp_cr=ZAZ
+                - listitem [ref=e442]:
+                  - generic [ref=e448]:
+                    - link [ref=e454] [cursor=pointer]:
+                      - /url: /samsung-Awesome-Iceblue-Storage-Without/dp/B0CXMCX9MD/ref=sr_1_3?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-3
+                      - img [ref=e456]
+                    - generic [ref=e459]:
+                      - link "Samsung Galaxy A35 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) Without Offer" [active] [ref=e461] [cursor=pointer]:
+                        - /url: /samsung-Awesome-Iceblue-Storage-Without/dp/B0CXMCX9MD/ref=sr_1_3?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-3
+                        - heading "Samsung Galaxy A35 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) Without Offer" [level=2] [ref=e462]
+                      - generic [ref=e463]:
+                        - generic [ref=e464]:
+                          - text: "4.3"
+                          - button "4.3 out of 5 stars, rating details" [ref=e466] [cursor=pointer]:
+                            - generic [ref=e468]: 4.3 out of 5 stars
+                          - link "670 ratings" [ref=e470] [cursor=pointer]:
+                            - /url: /samsung-Awesome-Iceblue-Storage-Without/dp/B0CXMCX9MD/ref=sr_1_3?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-3#customerReviews
+                            - text: (670)
+                        - generic [ref=e471]: 2K+ bought in past month
+                      - generic [ref=e474]:
+                        - generic [ref=e475]:
+                          - generic [ref=e477]:
+                            - generic [ref=e478]: Price, product page
+                            - 'link "₹18,299 M.R.P: ₹34,999 M.R.P: ₹34,999" [ref=e479] [cursor=pointer]':
+                              - /url: /samsung-Awesome-Iceblue-Storage-Without/dp/B0CXMCX9MD/ref=sr_1_3?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-3
+                              - generic [ref=e480]:
+                                - generic [ref=e481]: ₹18,299
+                                - generic [ref=e482]: ₹18,299
+                              - generic [ref=e483]: "M.R.P: ₹34,999"
+                              - generic [ref=e484]:
+                                - text: "M.R.P:"
+                                - generic [ref=e485]:
+                                  - generic [ref=e486]: ₹34,999
+                                  - text: ₹34,999
+                            - text: (48% off)
+                          - generic [ref=e490]:
+                            - generic [ref=e491]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e492]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e499]: FREE delivery Sun, 14 Dec
+                        - button "Add to cart" [ref=e517] [cursor=pointer]
+                - listitem [ref=e520]:
+                  - generic [ref=e526]:
+                    - link [ref=e532] [cursor=pointer]:
+                      - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_4?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-4
+                      - img [ref=e534]
+                    - generic [ref=e537]:
+                      - link "Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen of OS Upgrades | Without Charger" [ref=e539] [cursor=pointer]:
+                        - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_4?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-4
+                        - heading "Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen of OS Upgrades | Without Charger" [level=2] [ref=e540]
+                      - generic [ref=e541]:
+                        - generic [ref=e542]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e544] [cursor=pointer]:
+                            - generic [ref=e546]: 4.0 out of 5 stars
+                          - link "5,172 ratings" [ref=e548] [cursor=pointer]:
+                            - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_4?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-4#customerReviews
+                            - text: (5.1K)
+                        - generic [ref=e549]: 1K+ bought in past month
+                      - generic [ref=e552]:
+                        - generic [ref=e553]:
+                          - generic [ref=e555]:
+                            - generic [ref=e556]: Price, product page
+                            - 'link "₹9,999 M.R.P: ₹15,499 M.R.P: ₹15,499" [ref=e557] [cursor=pointer]':
+                              - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_4?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-4
+                              - generic [ref=e558]:
+                                - generic [ref=e559]: ₹9,999
+                                - generic [ref=e560]: ₹9,999
+                              - generic [ref=e561]: "M.R.P: ₹15,499"
+                              - generic [ref=e562]:
+                                - text: "M.R.P:"
+                                - generic [ref=e563]:
+                                  - generic [ref=e564]: ₹15,499
+                                  - text: ₹15,499
+                            - text: (35% off)
+                          - generic [ref=e568]:
+                            - generic [ref=e569]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e570]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e573]:
+                          - generic [ref=e577]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e579]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e595] [cursor=pointer]
+                        - group "colours available" [ref=e597]:
+                          - list [ref=e598]:
+                            - generic [ref=e599]:
+                              - listitem:
+                                - link "Sage Green":
+                                  - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-4
+                            - generic [ref=e602]:
+                              - listitem:
+                                - link "Blazing Black":
+                                  - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5R87P8/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-4
+                - listitem [ref=e607]:
+                  - generic [ref=e613]:
+                    - link [ref=e619] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=sr_1_5?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-5
+                      - img [ref=e621]
+                    - generic [ref=e624]:
+                      - link "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e626] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=sr_1_5?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-5
+                        - heading "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e627]
+                      - generic [ref=e628]:
+                        - generic [ref=e629]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e631] [cursor=pointer]:
+                            - generic [ref=e633]: 3.9 out of 5 stars
+                          - link "3,219 ratings" [ref=e635] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=sr_1_5?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-5#customerReviews
+                            - text: (3.2K)
+                        - generic [ref=e636]: 1K+ bought in past month
+                      - generic [ref=e639]:
+                        - generic [ref=e640]:
+                          - link "Limited time deal" [ref=e642] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e645]: Limited time deal
+                          - generic [ref=e647]:
+                            - generic [ref=e648]: Price, product page
+                            - 'link "₹14,999 M.R.P: ₹25,499 M.R.P: ₹25,499" [ref=e649] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=sr_1_5?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-5
+                              - generic [ref=e650]:
+                                - generic [ref=e651]: ₹14,999
+                                - generic [ref=e652]: ₹14,999
+                              - generic [ref=e653]: "M.R.P: ₹25,499"
+                              - generic [ref=e654]:
+                                - text: "M.R.P:"
+                                - generic [ref=e655]:
+                                  - generic [ref=e656]: ₹25,499
+                                  - text: ₹25,499
+                            - text: (41% off)
+                          - generic [ref=e660]:
+                            - generic [ref=e661]: Save extra with No Cost EMI
+                            - generic [ref=e662]: Save extra with No Cost EMI
+                        - generic [ref=e665]:
+                          - generic [ref=e669]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e671]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e687] [cursor=pointer]
+                        - group "colours available" [ref=e689]:
+                          - list [ref=e690]:
+                            - generic [ref=e691]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-5
+                            - generic [ref=e694]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-5
+                            - generic [ref=e697]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDBB2VRC/ref=cs_sr_dp_3?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-5
+                - listitem [ref=e702]:
+                  - generic [ref=e708]:
+                    - link [ref=e714] [cursor=pointer]:
+                      - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX6P3RX9/ref=sr_1_6?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-6
+                      - img [ref=e716]
+                    - generic [ref=e719]:
+                      - link "Samsung Galaxy M06 5G (Sage Green, 4GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen of OS Upgrades | Without Charger" [ref=e721] [cursor=pointer]:
+                        - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX6P3RX9/ref=sr_1_6?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-6
+                        - heading "Samsung Galaxy M06 5G (Sage Green, 4GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen of OS Upgrades | Without Charger" [level=2] [ref=e722]
+                      - generic [ref=e723]:
+                        - generic [ref=e724]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e726] [cursor=pointer]:
+                            - generic [ref=e728]: 4.0 out of 5 stars
+                          - link "5,172 ratings" [ref=e730] [cursor=pointer]:
+                            - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX6P3RX9/ref=sr_1_6?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-6#customerReviews
+                            - text: (5.1K)
+                        - generic [ref=e731]: 1K+ bought in past month
+                      - generic [ref=e734]:
+                        - generic [ref=e735]:
+                          - generic [ref=e737]:
+                            - generic [ref=e738]: Price, product page
+                            - 'link "₹8,999 M.R.P: ₹13,999 M.R.P: ₹13,999" [ref=e739] [cursor=pointer]':
+                              - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX6P3RX9/ref=sr_1_6?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-6
+                              - generic [ref=e740]:
+                                - generic [ref=e741]: ₹8,999
+                                - generic [ref=e742]: ₹8,999
+                              - generic [ref=e743]: "M.R.P: ₹13,999"
+                              - generic [ref=e744]:
+                                - text: "M.R.P:"
+                                - generic [ref=e745]:
+                                  - generic [ref=e746]: ₹13,999
+                                  - text: ₹13,999
+                            - text: (36% off)
+                          - generic [ref=e750]:
+                            - generic [ref=e751]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e752]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e755]:
+                          - generic [ref=e759]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e761]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e777] [cursor=pointer]
+                        - group "colours available" [ref=e779]:
+                          - list [ref=e780]:
+                            - generic [ref=e781]:
+                              - listitem:
+                                - link "Sage Green":
+                                  - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX6P3RX9/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-6
+                            - generic [ref=e784]:
+                              - listitem:
+                                - link "Blazing Black":
+                                  - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX6S111L/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-6
+                - listitem [ref=e789]:
+                  - generic [ref=e795]:
+                    - link [ref=e801] [cursor=pointer]:
+                      - /url: /Samsung-Galaxy-Bahama-Blue-128GB/dp/B0DYP4NYYJ/ref=sr_1_7?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-7
+                      - img [ref=e803]
+                    - generic [ref=e806]:
+                      - link "Samsung Galaxy F06 5G, Bahama Blue (4GB, 128GB)" [ref=e808] [cursor=pointer]:
+                        - /url: /Samsung-Galaxy-Bahama-Blue-128GB/dp/B0DYP4NYYJ/ref=sr_1_7?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-7
+                        - heading "Samsung Galaxy F06 5G, Bahama Blue (4GB, 128GB)" [level=2] [ref=e809]
+                      - generic [ref=e810]:
+                        - generic [ref=e811]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e813] [cursor=pointer]:
+                            - generic [ref=e815]: 3.9 out of 5 stars
+                          - link "440 ratings" [ref=e817] [cursor=pointer]:
+                            - /url: /Samsung-Galaxy-Bahama-Blue-128GB/dp/B0DYP4NYYJ/ref=sr_1_7?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-7#customerReviews
+                            - text: (440)
+                        - generic [ref=e818]: 1K+ bought in past month
+                      - generic [ref=e821]:
+                        - generic [ref=e824]:
+                          - generic [ref=e825]: Price, product page
+                          - 'link "₹8,917 M.R.P: ₹13,999 M.R.P: ₹13,999" [ref=e826] [cursor=pointer]':
+                            - /url: /Samsung-Galaxy-Bahama-Blue-128GB/dp/B0DYP4NYYJ/ref=sr_1_7?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-7
+                            - generic [ref=e827]:
+                              - generic [ref=e828]: ₹8,917
+                              - generic [ref=e829]: ₹8,917
+                            - generic [ref=e830]: "M.R.P: ₹13,999"
+                            - generic [ref=e831]:
+                              - text: "M.R.P:"
+                              - generic [ref=e832]:
+                                - generic [ref=e833]: ₹13,999
+                                - text: ₹13,999
+                          - text: (36% off)
+                        - generic [ref=e836]:
+                          - generic [ref=e840]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e842]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e858] [cursor=pointer]
+                - listitem [ref=e861]:
+                  - generic [ref=e867]:
+                    - link [ref=e873] [cursor=pointer]:
+                      - /url: /Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_8?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-8
+                      - img [ref=e875]
+                    - generic [ref=e878]:
+                      - link "Samsung Galaxy M07 (Black, 4GB RAM, 64GB Storage) | MediaTek Helio G99 | IP54 Rating | 50MP Auto Focus Camera | 7.6mm Slim | 5000mAh Battery| 25W Fast Charging | 6 Gen of OS Upgrades | Without Charger" [ref=e880] [cursor=pointer]:
+                        - /url: /Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_8?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-8
+                        - heading "Samsung Galaxy M07 (Black, 4GB RAM, 64GB Storage) | MediaTek Helio G99 | IP54 Rating | 50MP Auto Focus Camera | 7.6mm Slim | 5000mAh Battery| 25W Fast Charging | 6 Gen of OS Upgrades | Without Charger" [level=2] [ref=e881]
+                      - generic [ref=e882]:
+                        - generic [ref=e883]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e885] [cursor=pointer]:
+                            - generic [ref=e887]: 4.1 out of 5 stars
+                          - link "217 ratings" [ref=e889] [cursor=pointer]:
+                            - /url: /Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_8?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-8#customerReviews
+                            - text: (217)
+                        - generic [ref=e890]: 5K+ bought in past month
+                      - generic [ref=e893]:
+                        - generic [ref=e894]:
+                          - generic [ref=e896]:
+                            - generic [ref=e897]: Price, product page
+                            - 'link "₹6,799 M.R.P: ₹9,999 M.R.P: ₹9,999" [ref=e898] [cursor=pointer]':
+                              - /url: /Samsung-Storage-MediaTek-Charging-Upgrades/dp/B0FN7QTRPY/ref=sr_1_8?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-8
+                              - generic [ref=e899]:
+                                - generic [ref=e900]: ₹6,799
+                                - generic [ref=e901]: ₹6,799
+                              - generic [ref=e902]: "M.R.P: ₹9,999"
+                              - generic [ref=e903]:
+                                - text: "M.R.P:"
+                                - generic [ref=e904]:
+                                  - generic [ref=e905]: ₹9,999
+                                  - text: ₹9,999
+                            - text: (32% off)
+                          - generic [ref=e909]:
+                            - generic [ref=e910]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e911]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e914]:
+                          - generic [ref=e918]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e920]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e936] [cursor=pointer]
+                - listitem [ref=e939]:
+                  - generic [ref=e945]:
+                    - link [ref=e951] [cursor=pointer]:
+                      - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXDZZCTR/ref=sr_1_9?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-9
+                      - img [ref=e953]
+                    - generic [ref=e956]:
+                      - link "Samsung Galaxy A06 5G (Gray, 4GB RAM, 128GB Storage) | 50MP Dual Camera | 4 Gen OS Upgrades | IP54 Rating | Voice Focus" [ref=e958] [cursor=pointer]:
+                        - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXDZZCTR/ref=sr_1_9?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-9
+                        - heading "Samsung Galaxy A06 5G (Gray, 4GB RAM, 128GB Storage) | 50MP Dual Camera | 4 Gen OS Upgrades | IP54 Rating | Voice Focus" [level=2] [ref=e959]
+                      - generic [ref=e960]:
+                        - generic [ref=e961]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e963] [cursor=pointer]:
+                            - generic [ref=e965]: 4.1 out of 5 stars
+                          - link "237 ratings" [ref=e967] [cursor=pointer]:
+                            - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXDZZCTR/ref=sr_1_9?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-9#customerReviews
+                            - text: (237)
+                        - generic [ref=e968]: 100+ bought in past month
+                      - generic [ref=e971]:
+                        - generic [ref=e972]:
+                          - link "Limited time deal" [ref=e974] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e977]: Limited time deal
+                          - generic [ref=e979]:
+                            - generic [ref=e980]: Price, product page
+                            - 'link "₹11,199 M.R.P: ₹16,999 M.R.P: ₹16,999" [ref=e981] [cursor=pointer]':
+                              - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXDZZCTR/ref=sr_1_9?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-9
+                              - generic [ref=e982]:
+                                - generic [ref=e983]: ₹11,199
+                                - generic [ref=e984]: ₹11,199
+                              - generic [ref=e985]: "M.R.P: ₹16,999"
+                              - generic [ref=e986]:
+                                - text: "M.R.P:"
+                                - generic [ref=e987]:
+                                  - generic [ref=e988]: ₹16,999
+                                  - text: ₹16,999
+                            - text: (34% off)
+                          - generic [ref=e992]:
+                            - generic [ref=e993]: Save extra with No Cost EMI
+                            - generic [ref=e994]: Save extra with No Cost EMI
+                        - generic [ref=e997]:
+                          - generic [ref=e1001]: FREE delivery Thu, 11 Dec
+                          - generic [ref=e1003]: Or fastest delivery Wed, 10 Dec
+                        - button "Add to cart" [ref=e1019] [cursor=pointer]
+                        - group "colours available" [ref=e1021]:
+                          - list [ref=e1022]:
+                            - generic [ref=e1023]:
+                              - listitem:
+                                - link "Gray":
+                                  - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXDZZCTR/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-9
+                            - generic [ref=e1026]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXF1PWKN/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-9
+                            - generic [ref=e1029]:
+                              - listitem:
+                                - link "Light Green":
+                                  - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXF1N1B6/ref=cs_sr_dp_3?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-9
+                - listitem [ref=e1034]:
+                  - generic [ref=e1040]:
+                    - link [ref=e1046] [cursor=pointer]:
+                      - /url: /samsung-Galaxy-Awesome-Storage-Without/dp/B0CXMD9YX5/ref=sr_1_10?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-10
+                      - img [ref=e1048]
+                    - generic [ref=e1051]:
+                      - link "Samsung Galaxy A35 5G (Awesome Navy, 8GB RAM, 128GB Storage) Without Offer" [ref=e1053] [cursor=pointer]:
+                        - /url: /samsung-Galaxy-Awesome-Storage-Without/dp/B0CXMD9YX5/ref=sr_1_10?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-10
+                        - heading "Samsung Galaxy A35 5G (Awesome Navy, 8GB RAM, 128GB Storage) Without Offer" [level=2] [ref=e1054]
+                      - generic [ref=e1055]:
+                        - generic [ref=e1056]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1058] [cursor=pointer]:
+                            - generic [ref=e1060]: 4.2 out of 5 stars
+                          - link "459 ratings" [ref=e1062] [cursor=pointer]:
+                            - /url: /samsung-Galaxy-Awesome-Storage-Without/dp/B0CXMD9YX5/ref=sr_1_10?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-10#customerReviews
+                            - text: (459)
+                        - generic [ref=e1063]: 1K+ bought in past month
+                      - generic [ref=e1066]:
+                        - generic [ref=e1067]:
+                          - generic [ref=e1069]:
+                            - generic [ref=e1070]: Price, product page
+                            - 'link "₹19,435 M.R.P: ₹33,999 M.R.P: ₹33,999" [ref=e1071] [cursor=pointer]':
+                              - /url: /samsung-Galaxy-Awesome-Storage-Without/dp/B0CXMD9YX5/ref=sr_1_10?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-10
+                              - generic [ref=e1072]:
+                                - generic [ref=e1073]: ₹19,435
+                                - generic [ref=e1074]: ₹19,435
+                              - generic [ref=e1075]: "M.R.P: ₹33,999"
+                              - generic [ref=e1076]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1077]:
+                                  - generic [ref=e1078]: ₹33,999
+                                  - text: ₹33,999
+                            - text: (43% off)
+                          - generic [ref=e1082]:
+                            - generic [ref=e1083]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1084]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1087]:
+                          - generic [ref=e1091]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e1093]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e1109] [cursor=pointer]
+                        - generic [ref=e1111]:
+                          - text: More Buying Choices
+                          - text: ₹18,299
+                          - link "(13 new offers)" [ref=e1113] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0CXMD9YX5/ref=sr_1_10_olp?keywords=samsung+mobile+phone+under+20000&crid=2W9DBRZ4TKZZS&sprefix=sumsung+mobile%2Caps%2C224&dib_tag=se&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&qid=1765195228&sr=8-10
+                - listitem [ref=e1116]:
+                  - generic [ref=e1124]:
+                    - link [ref=e1130] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfbXRmOjMwMDY0MjkxMzI5NjYzMjo6MDo6&url=%2FRedmi-Hawaiian-Largest-Display-Segment%2Fdp%2FB0D78X544X%2Fref%3Dsr_1_11_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-11-spons%26aref%3DFUFkQlLQxN%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=FUFkQlLQxN&sp_cr=ZAZ
+                      - img [ref=e1132]
+                    - generic [ref=e1135]:
+                      - generic [ref=e1136]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1139] [cursor=pointer]:
+                          - generic [ref=e1140]: Sponsored
+                        - link "Sponsored Ad - Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment" [ref=e1142] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfbXRmOjMwMDY0MjkxMzI5NjYzMjo6MDo6&url=%2FRedmi-Hawaiian-Largest-Display-Segment%2Fdp%2FB0D78X544X%2Fref%3Dsr_1_11_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-11-spons%26aref%3DFUFkQlLQxN%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=FUFkQlLQxN&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment" [level=2] [ref=e1143]: Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment
+                      - generic [ref=e1144]:
+                        - generic [ref=e1145]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e1147] [cursor=pointer]:
+                            - generic [ref=e1149]: 4.1 out of 5 stars
+                          - link "4,321 ratings" [ref=e1151] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfbXRmOjMwMDY0MjkxMzI5NjYzMjo6MDo6&url=%2FRedmi-Hawaiian-Largest-Display-Segment%2Fdp%2FB0D78X544X%2Fref%3Dsr_1_11_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-11-spons%26aref%3DFUFkQlLQxN%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=FUFkQlLQxN&sp_cr=ZAZ#customerReviews
+                            - text: (4.3K)
+                        - generic [ref=e1152]: 5K+ bought in past month
+                      - generic [ref=e1155]:
+                        - generic [ref=e1156]:
+                          - generic [ref=e1158]:
+                            - generic [ref=e1159]: Price, product page
+                            - 'link "₹11,499 M.R.P: ₹19,999 M.R.P: ₹19,999" [ref=e1160] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfbXRmOjMwMDY0MjkxMzI5NjYzMjo6MDo6&url=%2FRedmi-Hawaiian-Largest-Display-Segment%2Fdp%2FB0D78X544X%2Fref%3Dsr_1_11_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-11-spons%26aref%3DFUFkQlLQxN%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=FUFkQlLQxN&sp_cr=ZAZ
+                              - generic [ref=e1161]:
+                                - generic [ref=e1162]: ₹11,499
+                                - generic [ref=e1163]: ₹11,499
+                              - generic [ref=e1164]: "M.R.P: ₹19,999"
+                              - generic [ref=e1165]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1166]:
+                                  - generic [ref=e1167]: ₹19,999
+                                  - text: ₹19,999
+                            - text: (43% off)
+                          - generic [ref=e1171]:
+                            - generic [ref=e1172]: Save extra with No Cost EMI
+                            - generic [ref=e1173]: Save extra with No Cost EMI
+                        - generic [ref=e1176]:
+                          - generic [ref=e1180]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e1182]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e1198] [cursor=pointer]
+                - listitem [ref=e1201]:
+                  - generic [ref=e1209]:
+                    - link [ref=e1215] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfbXRmOjMwMDYyMjg3OTEzOTAzMjo6MDo6&url=%2FRedmi-Pondicherry-Segments-Smoothest-Expandable%2Fdp%2FB0F3P52HHS%2Fref%3Dsr_1_12_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-12-spons%26aref%3DaxJGSbQZpx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=axJGSbQZpx&sp_cr=ZAZ
+                      - img [ref=e1217]
+                    - generic [ref=e1220]:
+                      - generic [ref=e1221]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1224] [cursor=pointer]:
+                          - generic [ref=e1225]: Sponsored
+                        - link "Sponsored Ad - Redmi A5 Pondicherry Blue(3GB RAM 64GB Storage) | Royale Design | Segment's Largest 17.47cm(6.88) and Smoothest 120Hz Display | 5200mAh Large Battery | Expandable Storage up to 2TB" [ref=e1227] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfbXRmOjMwMDYyMjg3OTEzOTAzMjo6MDo6&url=%2FRedmi-Pondicherry-Segments-Smoothest-Expandable%2Fdp%2FB0F3P52HHS%2Fref%3Dsr_1_12_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-12-spons%26aref%3DaxJGSbQZpx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=axJGSbQZpx&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Redmi A5 Pondicherry Blue(3GB RAM 64GB Storage) | Royale Design | Segment's Largest 17.47cm(6.88) and Smoothest 120Hz Display | 5200mAh Large Battery | Expandable Storage up to 2TB" [level=2] [ref=e1228]: Redmi A5 Pondicherry Blue(3GB RAM 64GB Storage) | Royale Design | Segment's Largest 17.47cm(6.88) and Smoothest 120Hz Display | 5200mAh Large Battery | Expandable Storage up to 2TB
+                      - generic [ref=e1229]:
+                        - generic [ref=e1230]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e1232] [cursor=pointer]:
+                            - generic [ref=e1234]: 3.9 out of 5 stars
+                          - link "450 ratings" [ref=e1236] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfbXRmOjMwMDYyMjg3OTEzOTAzMjo6MDo6&url=%2FRedmi-Pondicherry-Segments-Smoothest-Expandable%2Fdp%2FB0F3P52HHS%2Fref%3Dsr_1_12_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-12-spons%26aref%3DaxJGSbQZpx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=axJGSbQZpx&sp_cr=ZAZ#customerReviews
+                            - text: (450)
+                        - generic [ref=e1237]: 500+ bought in past month
+                      - generic [ref=e1240]:
+                        - generic [ref=e1241]:
+                          - generic [ref=e1243]:
+                            - generic [ref=e1244]: Price, product page
+                            - 'link "₹6,499 M.R.P: ₹8,999 M.R.P: ₹8,999" [ref=e1245] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfbXRmOjMwMDYyMjg3OTEzOTAzMjo6MDo6&url=%2FRedmi-Pondicherry-Segments-Smoothest-Expandable%2Fdp%2FB0F3P52HHS%2Fref%3Dsr_1_12_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-12-spons%26aref%3DaxJGSbQZpx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=axJGSbQZpx&sp_cr=ZAZ
+                              - generic [ref=e1246]:
+                                - generic [ref=e1247]: ₹6,499
+                                - generic [ref=e1248]: ₹6,499
+                              - generic [ref=e1249]: "M.R.P: ₹8,999"
+                              - generic [ref=e1250]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1251]:
+                                  - generic [ref=e1252]: ₹8,999
+                                  - text: ₹8,999
+                            - text: (28% off)
+                          - generic [ref=e1256]:
+                            - generic [ref=e1257]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1258]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1261]:
+                          - generic [ref=e1265]: FREE delivery Thu, 11 Dec
+                          - generic [ref=e1267]: Or fastest delivery Wed, 10 Dec
+                        - button "Add to cart" [ref=e1283] [cursor=pointer]
+                        - group "colours available" [ref=e1285]:
+                          - list
+                          - link "+3 other colors/patterns" [ref=e1287] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1Njg0NzMzNDU3NjA5MDE1OjE3NjUxOTUyMjg6c3BfbXRmOjMwMDYyMjg3OTEzOTAzMjo6MDo6&url=%2FRedmi-Pondicherry-Segments-Smoothest-Expandable%2Fdp%2FB0F3P52HHS%2Fref%3Dsr_1_12_sspa%3Fcrid%3D2W9DBRZ4TKZZS%26dib%3DeyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI%26dib_tag%3Dse%26keywords%3Dsamsung%2Bmobile%2Bphone%2Bunder%2B20000%26qid%3D1765195228%26sprefix%3Dsumsung%2Bmobile%252Caps%252C224%26sr%3D8-12-spons%26aref%3DaxJGSbQZpx%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=axJGSbQZpx&sp_cr=ZAZ
+                - listitem [ref=e1290]:
+                  - generic [ref=e1296]:
+                    - link [ref=e1302] [cursor=pointer]:
+                      - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D7Z8FJZ9/ref=sr_1_13?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-13
+                      - img [ref=e1304]
+                    - generic [ref=e1307]:
+                      - link "Samsung Galaxy M35 5G (DayBreak Blue,8GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+| Vapour Cooling Chamber| 6000mAh Battery| 120Hz Super AMOLED Display| AI| Without Charger" [ref=e1309] [cursor=pointer]:
+                        - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D7Z8FJZ9/ref=sr_1_13?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-13
+                        - heading "Samsung Galaxy M35 5G (DayBreak Blue,8GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+| Vapour Cooling Chamber| 6000mAh Battery| 120Hz Super AMOLED Display| AI| Without Charger" [level=2] [ref=e1310]
+                      - generic [ref=e1311]:
+                        - generic [ref=e1312]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1314] [cursor=pointer]:
+                            - generic [ref=e1316]: 4.2 out of 5 stars
+                          - link "15,798 ratings" [ref=e1318] [cursor=pointer]:
+                            - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D7Z8FJZ9/ref=sr_1_13?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-13#customerReviews
+                            - text: (15.7K)
+                        - generic [ref=e1319]: 300+ bought in past month
+                      - generic [ref=e1322]:
+                        - generic [ref=e1323]:
+                          - generic [ref=e1325]:
+                            - generic [ref=e1326]: Price, product page
+                            - 'link "₹18,499 M.R.P: ₹25,999 M.R.P: ₹25,999" [ref=e1327] [cursor=pointer]':
+                              - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D7Z8FJZ9/ref=sr_1_13?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-13
+                              - generic [ref=e1328]:
+                                - generic [ref=e1329]: ₹18,499
+                                - generic [ref=e1330]: ₹18,499
+                              - generic [ref=e1331]: "M.R.P: ₹25,999"
+                              - generic [ref=e1332]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1333]:
+                                  - generic [ref=e1334]: ₹25,999
+                                  - text: ₹25,999
+                            - text: (29% off)
+                          - generic [ref=e1338]:
+                            - generic [ref=e1339]: Save extra with No Cost EMI
+                            - generic [ref=e1340]: Save extra with No Cost EMI
+                        - generic [ref=e1347]: FREE delivery Thu, 25 Dec
+                        - button "Add to cart" [ref=e1365] [cursor=pointer]
+                - listitem [ref=e1368]:
+                  - generic [ref=e1374]:
+                    - link [ref=e1380] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=sr_1_14?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-14
+                      - img [ref=e1382]
+                    - generic [ref=e1385]:
+                      - link "Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e1387] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=sr_1_14?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-14
+                        - heading "Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e1388]
+                      - generic [ref=e1389]:
+                        - generic [ref=e1390]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e1392] [cursor=pointer]:
+                            - generic [ref=e1394]: 3.9 out of 5 stars
+                          - link "3,219 ratings" [ref=e1396] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=sr_1_14?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-14#customerReviews
+                            - text: (3.2K)
+                        - generic [ref=e1397]: 1K+ bought in past month
+                      - generic [ref=e1400]:
+                        - generic [ref=e1401]:
+                          - link "Limited time deal" [ref=e1403] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1406]: Limited time deal
+                          - generic [ref=e1408]:
+                            - generic [ref=e1409]: Price, product page
+                            - 'link "₹16,499 M.R.P: ₹26,999 M.R.P: ₹26,999" [ref=e1410] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=sr_1_14?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-14
+                              - generic [ref=e1411]:
+                                - generic [ref=e1412]: ₹16,499
+                                - generic [ref=e1413]: ₹16,499
+                              - generic [ref=e1414]: "M.R.P: ₹26,999"
+                              - generic [ref=e1415]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1416]:
+                                  - generic [ref=e1417]: ₹26,999
+                                  - text: ₹26,999
+                            - text: (39% off)
+                          - generic [ref=e1421]:
+                            - generic [ref=e1422]: Save extra with No Cost EMI
+                            - generic [ref=e1423]: Save extra with No Cost EMI
+                        - generic [ref=e1430]: FREE delivery Thu, 11 Dec
+                        - button "Add to cart" [ref=e1448] [cursor=pointer]
+                        - group "colours available" [ref=e1450]:
+                          - list [ref=e1451]:
+                            - generic [ref=e1452]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-14
+                            - generic [ref=e1455]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9T213/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-14
+                            - generic [ref=e1458]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H9Z7/ref=cs_sr_dp_3?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-14
+                - listitem [ref=e1463]:
+                  - generic [ref=e1469]:
+                    - link [ref=e1475] [cursor=pointer]:
+                      - /url: /Samsung-Awesome-Storage-Premium-Nightography/dp/B0CWPD4QWK/ref=sr_1_15?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-15
+                      - img [ref=e1477]
+                    - generic [ref=e1480]:
+                      - link "Samsung Galaxy A35 5G (Awesome Lilac, 8GB RAM, 128GB Storage) | Premium Glass Back | 50 MP Main Camera (OIS) | Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED with Vision Booster" [ref=e1482] [cursor=pointer]:
+                        - /url: /Samsung-Awesome-Storage-Premium-Nightography/dp/B0CWPD4QWK/ref=sr_1_15?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-15
+                        - heading "Samsung Galaxy A35 5G (Awesome Lilac, 8GB RAM, 128GB Storage) | Premium Glass Back | 50 MP Main Camera (OIS) | Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED with Vision Booster" [level=2] [ref=e1483]
+                      - generic [ref=e1484]:
+                        - generic [ref=e1485]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1487] [cursor=pointer]:
+                            - generic [ref=e1489]: 4.2 out of 5 stars
+                          - link "421 ratings" [ref=e1491] [cursor=pointer]:
+                            - /url: /Samsung-Awesome-Storage-Premium-Nightography/dp/B0CWPD4QWK/ref=sr_1_15?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-15#customerReviews
+                            - text: (421)
+                        - generic [ref=e1492]: 500+ bought in past month
+                      - generic [ref=e1495]:
+                        - generic [ref=e1496]:
+                          - generic [ref=e1498]:
+                            - generic [ref=e1499]: Price, product page
+                            - 'link "₹18,980 M.R.P: ₹33,999 M.R.P: ₹33,999" [ref=e1500] [cursor=pointer]':
+                              - /url: /Samsung-Awesome-Storage-Premium-Nightography/dp/B0CWPD4QWK/ref=sr_1_15?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-15
+                              - generic [ref=e1501]:
+                                - generic [ref=e1502]: ₹18,980
+                                - generic [ref=e1503]: ₹18,980
+                              - generic [ref=e1504]: "M.R.P: ₹33,999"
+                              - generic [ref=e1505]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1506]:
+                                  - generic [ref=e1507]: ₹33,999
+                                  - text: ₹33,999
+                            - text: (44% off)
+                          - generic [ref=e1511]:
+                            - generic [ref=e1512]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1513]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1516]:
+                          - generic [ref=e1520]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e1522]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e1538] [cursor=pointer]
+                - listitem [ref=e1541]:
+                  - generic [ref=e1547]:
+                    - link [ref=e1553] [cursor=pointer]:
+                      - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXF1N1B6/ref=sr_1_16?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-16
+                      - img [ref=e1555]
+                    - generic [ref=e1558]:
+                      - link "Samsung Galaxy A06 5G (Light Green, 4GB RAM, 128GB Storage) | 50MP Dual Camera | 4 Gen OS Upgrades | IP54 Rating | Voice Focus" [ref=e1560] [cursor=pointer]:
+                        - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXF1N1B6/ref=sr_1_16?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-16
+                        - heading "Samsung Galaxy A06 5G (Light Green, 4GB RAM, 128GB Storage) | 50MP Dual Camera | 4 Gen OS Upgrades | IP54 Rating | Voice Focus" [level=2] [ref=e1561]
+                      - generic [ref=e1562]:
+                        - generic [ref=e1563]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e1565] [cursor=pointer]:
+                            - generic [ref=e1567]: 4.1 out of 5 stars
+                          - link "237 ratings" [ref=e1569] [cursor=pointer]:
+                            - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXF1N1B6/ref=sr_1_16?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-16#customerReviews
+                            - text: (237)
+                        - generic [ref=e1570]: 100+ bought in past month
+                      - generic [ref=e1573]:
+                        - generic [ref=e1574]:
+                          - link "Limited time deal" [ref=e1576] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1579]: Limited time deal
+                          - generic [ref=e1581]:
+                            - generic [ref=e1582]: Price, product page
+                            - 'link "₹11,199 M.R.P: ₹16,999 M.R.P: ₹16,999" [ref=e1583] [cursor=pointer]':
+                              - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXF1N1B6/ref=sr_1_16?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-16
+                              - generic [ref=e1584]:
+                                - generic [ref=e1585]: ₹11,199
+                                - generic [ref=e1586]: ₹11,199
+                              - generic [ref=e1587]: "M.R.P: ₹16,999"
+                              - generic [ref=e1588]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1589]:
+                                  - generic [ref=e1590]: ₹16,999
+                                  - text: ₹16,999
+                            - text: (34% off)
+                          - generic [ref=e1594]:
+                            - generic [ref=e1595]: Save extra with No Cost EMI
+                            - generic [ref=e1596]: Save extra with No Cost EMI
+                        - generic [ref=e1599]:
+                          - generic [ref=e1603]: FREE delivery Thu, 11 Dec
+                          - generic [ref=e1605]: Or fastest delivery Wed, 10 Dec
+                        - button "Add to cart" [ref=e1621] [cursor=pointer]
+                        - group "colours available" [ref=e1623]:
+                          - list [ref=e1624]:
+                            - generic [ref=e1625]:
+                              - listitem:
+                                - link "Light Green":
+                                  - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXF1N1B6/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-16
+                            - generic [ref=e1628]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXF1PWKN/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-16
+                            - generic [ref=e1631]:
+                              - listitem:
+                                - link "Gray":
+                                  - /url: /Samsung-Galaxy-Storage-Camera-Upgrades/dp/B0DXVQ7WHD/ref=cs_sr_dp_3?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-16
+                - listitem [ref=e1636]:
+                  - generic [ref=e1642]:
+                    - link [ref=e1648] [cursor=pointer]:
+                      - /url: /Samsung-Sapphire-Storage-Gorilla-Upgrades/dp/B0FN7RN9TH/ref=sr_1_17?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-17
+                      - img [ref=e1650]
+                    - generic [ref=e1653]:
+                      - link "Samsung Galaxy M17 5G (Sapphire Black, 4GB RAM, 128GB Storage)| 50MP OIS Triple Camera| Gorilla Glass Victus| IP54 Rating| 6 Gen of OS Upgrades| AI| Circle to Search| Gemini Live| Without Charger" [ref=e1655] [cursor=pointer]:
+                        - /url: /Samsung-Sapphire-Storage-Gorilla-Upgrades/dp/B0FN7RN9TH/ref=sr_1_17?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-17
+                        - heading "Samsung Galaxy M17 5G (Sapphire Black, 4GB RAM, 128GB Storage)| 50MP OIS Triple Camera| Gorilla Glass Victus| IP54 Rating| 6 Gen of OS Upgrades| AI| Circle to Search| Gemini Live| Without Charger" [level=2] [ref=e1656]
+                      - generic [ref=e1657]:
+                        - generic [ref=e1658]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e1660] [cursor=pointer]:
+                            - generic [ref=e1662]: 4.1 out of 5 stars
+                          - link "428 ratings" [ref=e1664] [cursor=pointer]:
+                            - /url: /Samsung-Sapphire-Storage-Gorilla-Upgrades/dp/B0FN7RN9TH/ref=sr_1_17?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-17#customerReviews
+                            - text: (428)
+                        - generic [ref=e1665]: 1K+ bought in past month
+                      - generic [ref=e1668]:
+                        - generic [ref=e1669]:
+                          - generic [ref=e1671]:
+                            - generic [ref=e1672]: Price, product page
+                            - 'link "₹12,499 M.R.P: ₹16,499 M.R.P: ₹16,499" [ref=e1673] [cursor=pointer]':
+                              - /url: /Samsung-Sapphire-Storage-Gorilla-Upgrades/dp/B0FN7RN9TH/ref=sr_1_17?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-17
+                              - generic [ref=e1674]:
+                                - generic [ref=e1675]: ₹12,499
+                                - generic [ref=e1676]: ₹12,499
+                              - generic [ref=e1677]: "M.R.P: ₹16,499"
+                              - generic [ref=e1678]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1679]:
+                                  - generic [ref=e1680]: ₹16,499
+                                  - text: ₹16,499
+                            - text: (24% off)
+                          - generic [ref=e1684]:
+                            - generic [ref=e1685]: Save extra with No Cost EMI
+                            - generic [ref=e1686]: Save extra with No Cost EMI
+                        - generic [ref=e1693]: FREE delivery 29 Dec, 2025 - 1 Jan, 2026
+                        - button "Add to cart" [ref=e1711] [cursor=pointer]
+                        - group "colours available" [ref=e1713]:
+                          - list [ref=e1714]:
+                            - generic [ref=e1715]:
+                              - listitem:
+                                - link "Sapphire Black":
+                                  - /url: /Samsung-Sapphire-Storage-Gorilla-Upgrades/dp/B0FN7RN9TH/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-17
+                            - generic [ref=e1718]:
+                              - listitem:
+                                - link "Moonlight Silver":
+                                  - /url: /Samsung-Sapphire-Storage-Gorilla-Upgrades/dp/B0FN7TJYDK/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-17
+                - listitem [ref=e1723]:
+                  - generic [ref=e1729]:
+                    - link [ref=e1735] [cursor=pointer]:
+                      - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX791PX9/ref=sr_1_18?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-18
+                      - img [ref=e1737]
+                    - generic [ref=e1740]:
+                      - link "Samsung Galaxy M16 5G (Blush Pink, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | Super Amoled Display | AI | 25W Fast Charging | 6 Gen of OS Upgrades | Without Charger" [ref=e1742] [cursor=pointer]:
+                        - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX791PX9/ref=sr_1_18?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-18
+                        - heading "Samsung Galaxy M16 5G (Blush Pink, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | Super Amoled Display | AI | 25W Fast Charging | 6 Gen of OS Upgrades | Without Charger" [level=2] [ref=e1743]
+                      - generic [ref=e1744]:
+                        - generic [ref=e1745]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e1747] [cursor=pointer]:
+                            - generic [ref=e1749]: 4.0 out of 5 stars
+                          - link "2,793 ratings" [ref=e1751] [cursor=pointer]:
+                            - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX791PX9/ref=sr_1_18?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-18#customerReviews
+                            - text: (2.7K)
+                        - generic [ref=e1752]: 100+ bought in past month
+                      - generic [ref=e1755]:
+                        - generic [ref=e1756]:
+                          - generic [ref=e1758]:
+                            - generic [ref=e1759]: Price, product page
+                            - 'link "₹13,999 M.R.P: ₹17,499 M.R.P: ₹17,499" [ref=e1760] [cursor=pointer]':
+                              - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX791PX9/ref=sr_1_18?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-18
+                              - generic [ref=e1761]:
+                                - generic [ref=e1762]: ₹13,999
+                                - generic [ref=e1763]: ₹13,999
+                              - generic [ref=e1764]: "M.R.P: ₹17,499"
+                              - generic [ref=e1765]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1766]:
+                                  - generic [ref=e1767]: ₹17,499
+                                  - text: ₹17,499
+                            - text: (20% off)
+                          - generic [ref=e1771]:
+                            - generic [ref=e1772]: Save extra with No Cost EMI
+                            - generic [ref=e1773]: Save extra with No Cost EMI
+                        - generic [ref=e1776]:
+                          - generic [ref=e1780]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e1782]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e1798] [cursor=pointer]
+                        - group "colours available" [ref=e1800]:
+                          - list [ref=e1801]:
+                            - generic [ref=e1802]:
+                              - listitem:
+                                - link "Blush Pink":
+                                  - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX791PX9/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-18
+                            - generic [ref=e1805]:
+                              - listitem:
+                                - link "Mint Green":
+                                  - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX798LW2/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-18
+                            - generic [ref=e1808]:
+                              - listitem:
+                                - link "Thunder Black":
+                                  - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX5MYCRG/ref=cs_sr_dp_3?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-18
+                - listitem [ref=e1813]:
+                  - generic [ref=e1819]:
+                    - link [ref=e1825] [cursor=pointer]:
+                      - /url: /Samsung-Moonlight-Storage-Gorilla-Upgrades/dp/B0FN7WFPFD/ref=sr_1_19?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-19
+                      - img [ref=e1827]
+                    - generic [ref=e1830]:
+                      - link "Samsung Galaxy M17 5G (Moonlight Silver, 8GB RAM, 128GB Storage)| 50MP OIS Triple Camera| Gorilla Glass Victus| IP54 Rating| 6 Gen of OS Upgrades| AI| Circle to Search| Gemini Live| Without Charger" [ref=e1832] [cursor=pointer]:
+                        - /url: /Samsung-Moonlight-Storage-Gorilla-Upgrades/dp/B0FN7WFPFD/ref=sr_1_19?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-19
+                        - heading "Samsung Galaxy M17 5G (Moonlight Silver, 8GB RAM, 128GB Storage)| 50MP OIS Triple Camera| Gorilla Glass Victus| IP54 Rating| 6 Gen of OS Upgrades| AI| Circle to Search| Gemini Live| Without Charger" [level=2] [ref=e1833]
+                      - generic [ref=e1834]:
+                        - generic [ref=e1835]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e1837] [cursor=pointer]:
+                            - generic [ref=e1839]: 4.1 out of 5 stars
+                          - link "428 ratings" [ref=e1841] [cursor=pointer]:
+                            - /url: /Samsung-Moonlight-Storage-Gorilla-Upgrades/dp/B0FN7WFPFD/ref=sr_1_19?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-19#customerReviews
+                            - text: (428)
+                        - generic [ref=e1842]: 1K+ bought in past month
+                      - generic [ref=e1845]:
+                        - generic [ref=e1846]:
+                          - generic [ref=e1848]:
+                            - generic [ref=e1849]: Price, product page
+                            - 'link "₹15,499 M.R.P: ₹19,499 M.R.P: ₹19,499" [ref=e1850] [cursor=pointer]':
+                              - /url: /Samsung-Moonlight-Storage-Gorilla-Upgrades/dp/B0FN7WFPFD/ref=sr_1_19?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-19
+                              - generic [ref=e1851]:
+                                - generic [ref=e1852]: ₹15,499
+                                - generic [ref=e1853]: ₹15,499
+                              - generic [ref=e1854]: "M.R.P: ₹19,499"
+                              - generic [ref=e1855]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1856]:
+                                  - generic [ref=e1857]: ₹19,499
+                                  - text: ₹19,499
+                            - text: (21% off)
+                          - generic [ref=e1861]:
+                            - generic [ref=e1862]: Save extra with No Cost EMI
+                            - generic [ref=e1863]: Save extra with No Cost EMI
+                        - generic [ref=e1866]:
+                          - generic [ref=e1870]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e1872]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e1888] [cursor=pointer]
+                        - group "colours available" [ref=e1890]:
+                          - list [ref=e1891]:
+                            - generic [ref=e1892]:
+                              - listitem:
+                                - link "Moonlight Silver":
+                                  - /url: /Samsung-Moonlight-Storage-Gorilla-Upgrades/dp/B0FN7WFPFD/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-19
+                            - generic [ref=e1895]:
+                              - listitem:
+                                - link "Sapphire Black":
+                                  - /url: /Samsung-Moonlight-Storage-Gorilla-Upgrades/dp/B0FN7SQMGK/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-19
+                - listitem [ref=e1900]:
+                  - generic [ref=e1906]:
+                    - link [ref=e1912] [cursor=pointer]:
+                      - /url: /Samsung-Storage-5000mAh-Snapdragon-Security/dp/B0DG2D3Z91/ref=sr_1_20?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-20
+                      - img [ref=e1914]
+                    - generic [ref=e1917]:
+                      - link "Samsung Galaxy M55s 5G (Coral Green,8GB RAM,128GB Storage) | 50MP Triple Cam| 5000mAh Battery| Snapdragon 7 Gen 1 | 4 Gen. OS Upgrade & 5 Year Security Update| Super AMOLED+ Display| Without Charger" [ref=e1919] [cursor=pointer]:
+                        - /url: /Samsung-Storage-5000mAh-Snapdragon-Security/dp/B0DG2D3Z91/ref=sr_1_20?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-20
+                        - heading "Samsung Galaxy M55s 5G (Coral Green,8GB RAM,128GB Storage) | 50MP Triple Cam| 5000mAh Battery| Snapdragon 7 Gen 1 | 4 Gen. OS Upgrade & 5 Year Security Update| Super AMOLED+ Display| Without Charger" [level=2] [ref=e1920]
+                      - generic [ref=e1922]:
+                        - text: "3.8"
+                        - button "3.8 out of 5 stars, rating details" [ref=e1924] [cursor=pointer]:
+                          - generic [ref=e1926]: 3.8 out of 5 stars
+                        - link "1,581 ratings" [ref=e1928] [cursor=pointer]:
+                          - /url: /Samsung-Storage-5000mAh-Snapdragon-Security/dp/B0DG2D3Z91/ref=sr_1_20?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-20#customerReviews
+                          - text: (1.5K)
+                      - generic [ref=e1931]:
+                        - generic [ref=e1932]:
+                          - generic [ref=e1934]:
+                            - generic [ref=e1935]: Price, product page
+                            - 'link "₹17,890 M.R.P: ₹28,999 M.R.P: ₹28,999" [ref=e1936] [cursor=pointer]':
+                              - /url: /Samsung-Storage-5000mAh-Snapdragon-Security/dp/B0DG2D3Z91/ref=sr_1_20?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-20
+                              - generic [ref=e1937]:
+                                - generic [ref=e1938]: ₹17,890
+                                - generic [ref=e1939]: ₹17,890
+                              - generic [ref=e1940]: "M.R.P: ₹28,999"
+                              - generic [ref=e1941]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1942]:
+                                  - generic [ref=e1943]: ₹28,999
+                                  - text: ₹28,999
+                            - text: (38% off)
+                          - generic [ref=e1947]:
+                            - generic [ref=e1948]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1949]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1952]:
+                          - generic [ref=e1956]: FREE delivery Wed, 10 Dec
+                          - generic [ref=e1958]: Or fastest delivery Tomorrow, 9 Dec
+                        - button "Add to cart" [ref=e1974] [cursor=pointer]
+                        - generic [ref=e1976]:
+                          - text: More Buying Choices
+                          - text: ₹17,700
+                          - link "(5 new offers)" [ref=e1978] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0DG2D3Z91/ref=sr_1_20_olp?keywords=samsung+mobile+phone+under+20000&crid=2W9DBRZ4TKZZS&sprefix=sumsung+mobile%2Caps%2C224&dib_tag=se&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&qid=1765195228&sr=8-20
+                        - group "colours available" [ref=e1980]:
+                          - list [ref=e1981]:
+                            - generic [ref=e1982]:
+                              - listitem:
+                                - link "Coral Green":
+                                  - /url: /Samsung-Storage-5000mAh-Snapdragon-Security/dp/B0DG2D3Z91/ref=cs_sr_dp_1?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-20
+                            - generic [ref=e1985]:
+                              - listitem:
+                                - link "Thunder Black":
+                                  - /url: /Samsung-Storage-5000mAh-Snapdragon-Security/dp/B0DG2GWV7T/ref=cs_sr_dp_2?crid=2W9DBRZ4TKZZS&dib=eyJ2IjoiMSJ9.R7Y3Yge5BbwWQqMQTsh_KeY11ZJHBK6uMo19EaS-ydNbkSuuxuH7j9jXv33R0YYzdzehEDoCUtIIW6jLff6DyjuP53PZ0I-euxC9j3tsZH3cHj-kD3G2GnmADhi2BFR53Qhzy1Yfazbx7ZYyGtAHeMz2xIAiDz-XWd6vGThjJ-ZYG8ctm2AJTSi-S4qlyCuuZlPDMhSqU5rkpxTaf8EgRVApyDZp_tqXKyuR-TK0hIk.l_O3yAcBC1XpmPm4n5mm36opeslAnJd59GBFZDmR9cI&dib_tag=se&keywords=samsung+mobile+phone+under+20000&qid=1765195228&sprefix=sumsung+mobile%2Caps%2C224&sr=8-20
+          - generic [ref=e1997]:
+            - link "Sponsored video; click to navigate to featured product page. SAIJI Cell Phone Stand, Tablet Holder, Height Adjustable Aluminum Stand Mount, Compatible with iPhone, Samsung Cell Phone, Tablet, iPad, Nintendo Switch, Kindle, Up to 10 Inch Screen (Black2)" [ref=e2001] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JOcf3HAPYFMBcKT0GeOPWucAAAGa_dWkGgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICD8NmLZ/clv1_CEuOPUxokZA0iHrVQuQhkgPWRldLfqQyipgX_h2F9epIx38du0neOv018HHz9hvVjq0yzpNb3X7OfU1OBWcAWlglPCq4R8XODG8SfnlIeQf9TY8hokfB8IkGXCRJUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr3pAeSFU-Nd8t56YDVqnfUS9P5TL5hlsEhHIxCo_yWr3JYqfnqDdhxLjmecuEwp_BLYLaGtZkIGfJT7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0ms2mCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAh0-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15GpFuhzkYzIn_IzNtanokvdpv45w7N2keTX6EqVYIkWnzB9dZ9F4R0X5r4ecD6t16FHKDF38MzYvsaN7e-6DyJXcIPD7pgyLxbo9C7BRVz_QPS-qQjqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmztXMjhfyILr25of6rrUOg1ETPznEa9CbKhGCcpgGhtuovkuA7pHrEFeEiau49OfWB4cyl_zdwKSc6UCXQmnHYkQBLHUYsXHFCUCm3sG6jojyfdtzVwYyG9MPM_TWKZb4WB9WdILH732KbVCt8Au4VHTNDc1p_dJPG6zHzYVogDjaj241V7lQYZLIQ26STlkdCtSF3DsmYgExf4I1skDJrDGe8bpCONx64Ta5hIuRCb3GZROjQHAxaTo2TfMOlnrC8fSLPzqRHcdUHLjl-N7K2E0v5OeRg_QRAO4SPpduyguETTtbglhwDAeFOvlshYng4eeDUDVvYFpQDnrPppYmx8iGe-CrM3JBdhykyf8YCK3qNHWH40GS4eBcynFntO_zHzOkCoIlk5TujhZxMIW_dMWoYaEG_oFahvC13fZujSrQqlveqVlb4RoNhRp4mlnk77qFvhKO99wqjpmG0MND-bNkxGNPW6ux9pReS-KU7ELQbUzCm_nPI0ukueXot55L13PcEpnMDTMBfEbVQib4Bk1W8JwyHl_SzBXnDXItlDB70e26pSArAABMjcI-GN6WepRqyPE9x-441xMLjnj5OSzRH6oIiOfIvChriNg6PzzwOE2T-tYm4mTyfLCPRTkfJxA-mUeYJ3pcJwdUV0kwCtGOUOESqa3xm0Lwxp-LZrGD6aTliQfNSNqH3VYAwJRS_ofbWJ2OEO2yJKJ5Dgfe28fTL8aSEOKRqKNcFr9FBYsbNMlzu8KXHXcTEAx0_TA0R5Nvp14s5h4_GzQ_BxfOrc1zIFxWbsChQt3Y_RbaNUCvIDDjW8oISSnGjqTNs84sQTCzQckcgBKFQpt00dPeLcdchldfeeXF1-viCq96-oOhQSb2SkB4MuVuci4UndAm2-Rlllhatjp14AwiEyHeBidvmwuI8RLcL4EfiTtMYl9k35ymtkotzd_lPV9lIhnB1J_aoxlnCWKurMCrWoqi-F72EzpQEhtIvRMOKhcMggSMCdfdtEKtp8tnNJXj2OLPOiYFOLeikappbQD4xpR5VuujpE6iNvng7XPSojeIJuM3YQgNNuvqB1zd7FSfMKO6dsih_xNI5eZf1jaARlksdHyxXyL7aZ4kP7wa6EhJAgKXoS1kRGMmUzZODd6S-I13ejP0ZNGu2cL8PJxXVJsnCIykcXN6uYrjBjxvFq3sbJNVcUjBqb9Iq-2o6lqLy7ObhtsFIJcqJaKcSfsIsUZ8Uw_-QttCw8XqjTuJNYQkGMtDlwDcMqm5b4ooienN27vCI_Ohkt8eiZKJOjhJMUqH8R4UpE26ALu07nNsxoFy-V3xqxy8uIW8qcBriJATs7TWPGJTLmDg6i1HXHJRdW_MhKZ2qAs3RA7AHZW4AQSZsq7HvF6fjv5GB-eISVotV_fmG8cZK2yEP2cy8GG162ecSetoycir22Z_PUsbF1LZ6FWxILIRp0lmH6zhiJ6YzfrTmUbXR9VFfDOPZXa1wA2ag3OsmaxJpa1X6xrnEGtw59g3YxsY8rUneqxbKGur5JvAnhY9IiAT6B8ZHHZQQTU4gRWp7drg5hP1FVMiiJAUA9phA5be5l0-j5Eve/https://www.amazon.in/dp/B07P24XB3Q?aref=83VVHUXMtB&pd_rd_i=B07P24XB3Q&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=ThRWW&pd_rd_w=42hLx&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4
+              - generic "Sponsored video; click to navigate to featured product page. SAIJI Cell Phone Stand, Tablet Holder, Height Adjustable Aluminum Stand Mount, Compatible with iPhone, Samsung Cell Phone, Tablet, iPad, Nintendo Switch, Kindle, Up to 10 Inch Screen (Black2)" [ref=e2002]
+            - generic [ref=e2010]:
+              - link [ref=e2016] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JOcf3HAPYFMBcKT0GeOPWucAAAGa_dWkGgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICD8NmLZ/clv1_CEuOPUxokZA0iHrVQuQhkgPWRldLfqQyipgX_h2F9epIx38du0neOv018HHz9hvVjq0yzpNb3X7OfU1OBWcAWlglPCq4R8XODG8SfnlIeQf9TY8hokfB8IkGXCRJUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr3pAeSFU-Nd8t56YDVqnfUS9P5TL5hlsEhHIxCo_yWr3JYqfnqDdhxLjmecuEwp_BLYLaGtZkIGfJT7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0ms2mCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAh0-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15GpFuhzkYzIn_IzNtanokvdpv45w7N2keTX6EqVYIkWnzB9dZ9F4R0X5r4ecD6t16FHKDF38MzYvsaN7e-6DyJXcIPD7pgyLxbo9C7BRVz_QPS-qQjqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmztXMjhfyILr25of6rrUOg1ETPznEa9CbKhGCcpgGhtuovkuA7pHrEFeEiau49OfWB4cyl_zdwKSc6UCXQmnHYkQBLHUYsXHFCUCm3sG6jojyfdtzVwYyG9MPM_TWKZb4WB9WdILH732KbVCt8Au4VHTNDc1p_dJPG6zHzYVogDjaj241V7lQYZLIQ26STlkdCtSF3DsmYgExf4I1skDJrDGe8bpCONx64Ta5hIuRCb3GZROjQHAxaTo2TfMOlnrC8fSLPzqRHcdUHLjl-N7K2E0v5OeRg_QRAO4SPpduyguETTtbglhwDAeFOvlshYng4eeDUDVvYFpQDnrPppYmx8iGe-CrM3JBdhykyf8YCK3qNHWH40GS4eBcynFntO_zHzOkCoIlk5TujhZxMIW_dMWoYaEG_oFahvC13fZujSrQqlveqVlb4RoNhRp4mlnk77qFvhKO99wqjpmG0MND-bNkxGNPW6ux9pReS-KU7ELQbUzCm_nPI0ukueXot55L13PcEpnMDTMBfEbVQib4Bk1W8JwyHl_SzBXnDXItlDB70e26pSArAABMjcI-GN6WepRqyPE9x-441xMLjnj5OSzRH6oIiOfIvChriNg6PzzwOE2T-tYm4mTyfLCPRTkfJxA-mUeYJ3pcJwdUV0kwCtGOUOESqa3xm0Lwxp-LZrGD6aTliQfNSNqH3VYAwJRS_ofbWJ2OEO2yJKJ5Dgfe28fTL8aSEOKRqKNcFr9FBYsbNMlzu8KXHXcTEAx0_TA0R5Nvp14s5h4_GzQ_BxfOrc1zIFxWbsChQt3Y_RbaNUCvIDDjW8oISSnGjqTNs84sQTCzQckcgBKFQpt00dPeLcdchldfeeXF1-viCq96-oOhQSb2SkB4MuVuci4UndAm2-Rlllhatjp14AwiEyHeBidvmwuI8RLcL4EfiTtMYl9k35ymtkotzd_lPV9lIhnB1J_aoxlnCWKurMCrWoqi-F72EzpQEhtIvRMOKhcMggSMCdfdtEKtp8tnNJXj2OLPOiYFOLeikappbQD4xpR5VuujpE6iNvng7XPSojeIJuM3YQgNNuvqB1zd7FSfMKO6dsih_xNI5eZf1jaARlksdHyxXyL7aZ4kP7wa6EhJAgKXoS1kRGMmUzZODd6S-I13ejP0ZNGu2cL8PJxXVJsnCIykcXN6uYrjBjxvFq3sbJNVcUjBqb9Iq-2o6lqLy7ObhtsFIJcqJaKcSfsIsUZ8Uw_-QttCw8XqjTuJNYQkGMtDlwDcMqm5b4ooienN27vCI_Ohkt8eiZKJOjhJMUqH8R4UpE26ALu07nNsxoFy-V3xqxy8uIW8qcBriJATs7TWPGJTLmDg6i1HXHJRdW_MhKZ2qAs3RA7AHZW4AQSZsq7HvF6fjv5GB-eISVotV_fmG8cZK2yEP2cy8GG162ecSetoycir22Z_PUsbF1LZ6FWxILIRp0lmH6zhiJ6YzfrTmUbXR9VFfDOPZXa1wA2ag3OsmaxJpa1X6xrnEGtw59g3YxsY8rUneqxbKGur5JvAnhY9IiAT6B8ZHHZQQTU4gRWp7drg5hP1FVMiiJAUA9phA5be5l0-j5Eve/https://www.amazon.in/SAIJI-Adjustable-Aluminum-Compatible-Nintendo/dp/B07P24XB3Q/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=2W9DBRZ4TKZZS&cv_ct_cx=samsung+mobile+phone+under+20000&keywords=samsung+mobile+phone+under+20000&pd_rd_i=B07P24XB3Q&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&pd_rd_w=42hLx&pd_rd_wg=ThRWW&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=WC30M8W9JHGMS6RH3MCT&qid=1765195228&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=sumsung+mobile%2Caps%2C224&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                - img [ref=e2018]
+              - generic [ref=e2021]:
+                - generic [ref=e2022]:
+                  - generic [ref=e2025] [cursor=pointer]: Sponsored
+                  - link "SAIJI Cell Phone Stand, Tablet Holder, Height Adjustable Aluminum Stand Mount, Compatible with iPhone, Samsung Cell Phone, Tablet, iPad, Nintendo Switch, Kindle, Up to 10 Inch Screen (Black2)" [ref=e2027] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JOcf3HAPYFMBcKT0GeOPWucAAAGa_dWkGgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICD8NmLZ/clv1_CEuOPUxokZA0iHrVQuQhkgPWRldLfqQyipgX_h2F9epIx38du0neOv018HHz9hvVjq0yzpNb3X7OfU1OBWcAWlglPCq4R8XODG8SfnlIeQf9TY8hokfB8IkGXCRJUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr3pAeSFU-Nd8t56YDVqnfUS9P5TL5hlsEhHIxCo_yWr3JYqfnqDdhxLjmecuEwp_BLYLaGtZkIGfJT7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0ms2mCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAh0-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15GpFuhzkYzIn_IzNtanokvdpv45w7N2keTX6EqVYIkWnzB9dZ9F4R0X5r4ecD6t16FHKDF38MzYvsaN7e-6DyJXcIPD7pgyLxbo9C7BRVz_QPS-qQjqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmztXMjhfyILr25of6rrUOg1ETPznEa9CbKhGCcpgGhtuovkuA7pHrEFeEiau49OfWB4cyl_zdwKSc6UCXQmnHYkQBLHUYsXHFCUCm3sG6jojyfdtzVwYyG9MPM_TWKZb4WB9WdILH732KbVCt8Au4VHTNDc1p_dJPG6zHzYVogDjaj241V7lQYZLIQ26STlkdCtSF3DsmYgExf4I1skDJrDGe8bpCONx64Ta5hIuRCb3GZROjQHAxaTo2TfMOlnrC8fSLPzqRHcdUHLjl-N7K2E0v5OeRg_QRAO4SPpduyguETTtbglhwDAeFOvlshYng4eeDUDVvYFpQDnrPppYmx8iGe-CrM3JBdhykyf8YCK3qNHWH40GS4eBcynFntO_zHzOkCoIlk5TujhZxMIW_dMWoYaEG_oFahvC13fZujSrQqlveqVlb4RoNhRp4mlnk77qFvhKO99wqjpmG0MND-bNkxGNPW6ux9pReS-KU7ELQbUzCm_nPI0ukueXot55L13PcEpnMDTMBfEbVQib4Bk1W8JwyHl_SzBXnDXItlDB70e26pSArAABMjcI-GN6WepRqyPE9x-441xMLjnj5OSzRH6oIiOfIvChriNg6PzzwOE2T-tYm4mTyfLCPRTkfJxA-mUeYJ3pcJwdUV0kwCtGOUOESqa3xm0Lwxp-LZrGD6aTliQfNSNqH3VYAwJRS_ofbWJ2OEO2yJKJ5Dgfe28fTL8aSEOKRqKNcFr9FBYsbNMlzu8KXHXcTEAx0_TA0R5Nvp14s5h4_GzQ_BxfOrc1zIFxWbsChQt3Y_RbaNUCvIDDjW8oISSnGjqTNs84sQTCzQckcgBKFQpt00dPeLcdchldfeeXF1-viCq96-oOhQSb2SkB4MuVuci4UndAm2-Rlllhatjp14AwiEyHeBidvmwuI8RLcL4EfiTtMYl9k35ymtkotzd_lPV9lIhnB1J_aoxlnCWKurMCrWoqi-F72EzpQEhtIvRMOKhcMggSMCdfdtEKtp8tnNJXj2OLPOiYFOLeikappbQD4xpR5VuujpE6iNvng7XPSojeIJuM3YQgNNuvqB1zd7FSfMKO6dsih_xNI5eZf1jaARlksdHyxXyL7aZ4kP7wa6EhJAgKXoS1kRGMmUzZODd6S-I13ejP0ZNGu2cL8PJxXVJsnCIykcXN6uYrjBjxvFq3sbJNVcUjBqb9Iq-2o6lqLy7ObhtsFIJcqJaKcSfsIsUZ8Uw_-QttCw8XqjTuJNYQkGMtDlwDcMqm5b4ooienN27vCI_Ohkt8eiZKJOjhJMUqH8R4UpE26ALu07nNsxoFy-V3xqxy8uIW8qcBriJATs7TWPGJTLmDg6i1HXHJRdW_MhKZ2qAs3RA7AHZW4AQSZsq7HvF6fjv5GB-eISVotV_fmG8cZK2yEP2cy8GG162ecSetoycir22Z_PUsbF1LZ6FWxILIRp0lmH6zhiJ6YzfrTmUbXR9VFfDOPZXa1wA2ag3OsmaxJpa1X6xrnEGtw59g3YxsY8rUneqxbKGur5JvAnhY9IiAT6B8ZHHZQQTU4gRWp7drg5hP1FVMiiJAUA9phA5be5l0-j5Eve/https://www.amazon.in/SAIJI-Adjustable-Aluminum-Compatible-Nintendo/dp/B07P24XB3Q/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=2W9DBRZ4TKZZS&cv_ct_cx=samsung+mobile+phone+under+20000&keywords=samsung+mobile+phone+under+20000&pd_rd_i=B07P24XB3Q&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&pd_rd_w=42hLx&pd_rd_wg=ThRWW&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=WC30M8W9JHGMS6RH3MCT&qid=1765195228&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=sumsung+mobile%2Caps%2C224&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                    - heading "SAIJI Cell Phone Stand, Tablet Holder, Height Adjustable Aluminum Stand Mount, Compatible with iPhone, Samsung Cell Phone, Tablet, iPad, Nintendo Switch, Kindle, Up to 10 Inch Screen (Black2)" [level=2] [ref=e2028]
+                - generic [ref=e2030]:
+                  - text: "4.3"
+                  - button "4.3 out of 5 stars, rating details" [ref=e2032] [cursor=pointer]:
+                    - generic [ref=e2034]: 4.3 out of 5 stars
+                  - link "144 ratings" [ref=e2036] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JOcf3HAPYFMBcKT0GeOPWucAAAGa_dWkGgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICD8NmLZ/clv1_CEuOPUxokZA0iHrVQuQhkgPWRldLfqQyipgX_h2F9epIx38du0neOv018HHz9hvVjq0yzpNb3X7OfU1OBWcAWlglPCq4R8XODG8SfnlIeQf9TY8hokfB8IkGXCRJUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr3pAeSFU-Nd8t56YDVqnfUS9P5TL5hlsEhHIxCo_yWr3JYqfnqDdhxLjmecuEwp_BLYLaGtZkIGfJT7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0ms2mCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAh0-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15GpFuhzkYzIn_IzNtanokvdpv45w7N2keTX6EqVYIkWnzB9dZ9F4R0X5r4ecD6t16FHKDF38MzYvsaN7e-6DyJXcIPD7pgyLxbo9C7BRVz_QPS-qQjqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmztXMjhfyILr25of6rrUOg1ETPznEa9CbKhGCcpgGhtuovkuA7pHrEFeEiau49OfWB4cyl_zdwKSc6UCXQmnHYkQBLHUYsXHFCUCm3sG6jojyfdtzVwYyG9MPM_TWKZb4WB9WdILH732KbVCt8Au4VHTNDc1p_dJPG6zHzYVogDjaj241V7lQYZLIQ26STlkdCtSF3DsmYgExf4I1skDJrDGe8bpCONx64Ta5hIuRCb3GZROjQHAxaTo2TfMOlnrC8fSLPzqRHcdUHLjl-N7K2E0v5OeRg_QRAO4SPpduyguETTtbglhwDAeFOvlshYng4eeDUDVvYFpQDnrPppYmx8iGe-CrM3JBdhykyf8YCK3qNHWH40GS4eBcynFntO_zHzOkCoIlk5TujhZxMIW_dMWoYaEG_oFahvC13fZujSrQqlveqVlb4RoNhRp4mlnk77qFvhKO99wqjpmG0MND-bNkxGNPW6ux9pReS-KU7ELQbUzCm_nPI0ukueXot55L13PcEpnMDTMBfEbVQib4Bk1W8JwyHl_SzBXnDXItlDB70e26pSArAABMjcI-GN6WepRqyPE9x-441xMLjnj5OSzRH6oIiOfIvChriNg6PzzwOE2T-tYm4mTyfLCPRTkfJxA-mUeYJ3pcJwdUV0kwCtGOUOESqa3xm0Lwxp-LZrGD6aTliQfNSNqH3VYAwJRS_ofbWJ2OEO2yJKJ5Dgfe28fTL8aSEOKRqKNcFr9FBYsbNMlzu8KXHXcTEAx0_TA0R5Nvp14s5h4_GzQ_BxfOrc1zIFxWbsChQt3Y_RbaNUCvIDDjW8oISSnGjqTNs84sQTCzQckcgBKFQpt00dPeLcdchldfeeXF1-viCq96-oOhQSb2SkB4MuVuci4UndAm2-Rlllhatjp14AwiEyHeBidvmwuI8RLcL4EfiTtMYl9k35ymtkotzd_lPV9lIhnB1J_aoxlnCWKurMCrWoqi-F72EzpQEhtIvRMOKhcMggSMCdfdtEKtp8tnNJXj2OLPOiYFOLeikappbQD4xpR5VuujpE6iNvng7XPSojeIJuM3YQgNNuvqB1zd7FSfMKO6dsih_xNI5eZf1jaARlksdHyxXyL7aZ4kP7wa6EhJAgKXoS1kRGMmUzZODd6S-I13ejP0ZNGu2cL8PJxXVJsnCIykcXN6uYrjBjxvFq3sbJNVcUjBqb9Iq-2o6lqLy7ObhtsFIJcqJaKcSfsIsUZ8Uw_-QttCw8XqjTuJNYQkGMtDlwDcMqm5b4ooienN27vCI_Ohkt8eiZKJOjhJMUqH8R4UpE26ALu07nNsxoFy-V3xqxy8uIW8qcBriJATs7TWPGJTLmDg6i1HXHJRdW_MhKZ2qAs3RA7AHZW4AQSZsq7HvF6fjv5GB-eISVotV_fmG8cZK2yEP2cy8GG162ecSetoycir22Z_PUsbF1LZ6FWxILIRp0lmH6zhiJ6YzfrTmUbXR9VFfDOPZXa1wA2ag3OsmaxJpa1X6xrnEGtw59g3YxsY8rUneqxbKGur5JvAnhY9IiAT6B8ZHHZQQTU4gRWp7drg5hP1FVMiiJAUA9phA5be5l0-j5Eve/https://www.amazon.in/SAIJI-Adjustable-Aluminum-Compatible-Nintendo/dp/B07P24XB3Q/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=2W9DBRZ4TKZZS&cv_ct_cx=samsung+mobile+phone+under+20000&keywords=samsung+mobile+phone+under+20000&pd_rd_i=B07P24XB3Q&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&pd_rd_w=42hLx&pd_rd_wg=ThRWW&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=WC30M8W9JHGMS6RH3MCT&qid=1765195228&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=sumsung+mobile%2Caps%2C224&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55#customerReviews
+                    - text: (144)
+                - generic [ref=e2039]:
+                  - generic [ref=e2040]:
+                    - link "Limited time deal" [ref=e2042] [cursor=pointer]:
+                      - /url: /deals
+                      - generic [ref=e2045]: Limited time deal
+                    - generic [ref=e2047]:
+                      - generic [ref=e2048]: Price, product page
+                      - 'link "₹1,454 M.R.P: ₹2,199 M.R.P: ₹2,199" [ref=e2049] [cursor=pointer]':
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JOcf3HAPYFMBcKT0GeOPWucAAAGa_dWkGgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICD8NmLZ/clv1_CEuOPUxokZA0iHrVQuQhkgPWRldLfqQyipgX_h2F9epIx38du0neOv018HHz9hvVjq0yzpNb3X7OfU1OBWcAWlglPCq4R8XODG8SfnlIeQf9TY8hokfB8IkGXCRJUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr3pAeSFU-Nd8t56YDVqnfUS9P5TL5hlsEhHIxCo_yWr3JYqfnqDdhxLjmecuEwp_BLYLaGtZkIGfJT7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0ms2mCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAh0-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15GpFuhzkYzIn_IzNtanokvdpv45w7N2keTX6EqVYIkWnzB9dZ9F4R0X5r4ecD6t16FHKDF38MzYvsaN7e-6DyJXcIPD7pgyLxbo9C7BRVz_QPS-qQjqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmztXMjhfyILr25of6rrUOg1ETPznEa9CbKhGCcpgGhtuovkuA7pHrEFeEiau49OfWB4cyl_zdwKSc6UCXQmnHYkQBLHUYsXHFCUCm3sG6jojyfdtzVwYyG9MPM_TWKZb4WB9WdILH732KbVCt8Au4VHTNDc1p_dJPG6zHzYVogDjaj241V7lQYZLIQ26STlkdCtSF3DsmYgExf4I1skDJrDGe8bpCONx64Ta5hIuRCb3GZROjQHAxaTo2TfMOlnrC8fSLPzqRHcdUHLjl-N7K2E0v5OeRg_QRAO4SPpduyguETTtbglhwDAeFOvlshYng4eeDUDVvYFpQDnrPppYmx8iGe-CrM3JBdhykyf8YCK3qNHWH40GS4eBcynFntO_zHzOkCoIlk5TujhZxMIW_dMWoYaEG_oFahvC13fZujSrQqlveqVlb4RoNhRp4mlnk77qFvhKO99wqjpmG0MND-bNkxGNPW6ux9pReS-KU7ELQbUzCm_nPI0ukueXot55L13PcEpnMDTMBfEbVQib4Bk1W8JwyHl_SzBXnDXItlDB70e26pSArAABMjcI-GN6WepRqyPE9x-441xMLjnj5OSzRH6oIiOfIvChriNg6PzzwOE2T-tYm4mTyfLCPRTkfJxA-mUeYJ3pcJwdUV0kwCtGOUOESqa3xm0Lwxp-LZrGD6aTliQfNSNqH3VYAwJRS_ofbWJ2OEO2yJKJ5Dgfe28fTL8aSEOKRqKNcFr9FBYsbNMlzu8KXHXcTEAx0_TA0R5Nvp14s5h4_GzQ_BxfOrc1zIFxWbsChQt3Y_RbaNUCvIDDjW8oISSnGjqTNs84sQTCzQckcgBKFQpt00dPeLcdchldfeeXF1-viCq96-oOhQSb2SkB4MuVuci4UndAm2-Rlllhatjp14AwiEyHeBidvmwuI8RLcL4EfiTtMYl9k35ymtkotzd_lPV9lIhnB1J_aoxlnCWKurMCrWoqi-F72EzpQEhtIvRMOKhcMggSMCdfdtEKtp8tnNJXj2OLPOiYFOLeikappbQD4xpR5VuujpE6iNvng7XPSojeIJuM3YQgNNuvqB1zd7FSfMKO6dsih_xNI5eZf1jaARlksdHyxXyL7aZ4kP7wa6EhJAgKXoS1kRGMmUzZODd6S-I13ejP0ZNGu2cL8PJxXVJsnCIykcXN6uYrjBjxvFq3sbJNVcUjBqb9Iq-2o6lqLy7ObhtsFIJcqJaKcSfsIsUZ8Uw_-QttCw8XqjTuJNYQkGMtDlwDcMqm5b4ooienN27vCI_Ohkt8eiZKJOjhJMUqH8R4UpE26ALu07nNsxoFy-V3xqxy8uIW8qcBriJATs7TWPGJTLmDg6i1HXHJRdW_MhKZ2qAs3RA7AHZW4AQSZsq7HvF6fjv5GB-eISVotV_fmG8cZK2yEP2cy8GG162ecSetoycir22Z_PUsbF1LZ6FWxILIRp0lmH6zhiJ6YzfrTmUbXR9VFfDOPZXa1wA2ag3OsmaxJpa1X6xrnEGtw59g3YxsY8rUneqxbKGur5JvAnhY9IiAT6B8ZHHZQQTU4gRWp7drg5hP1FVMiiJAUA9phA5be5l0-j5Eve/https://www.amazon.in/SAIJI-Adjustable-Aluminum-Compatible-Nintendo/dp/B07P24XB3Q/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=2W9DBRZ4TKZZS&cv_ct_cx=samsung+mobile+phone+under+20000&keywords=samsung+mobile+phone+under+20000&pd_rd_i=B07P24XB3Q&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&pd_rd_w=42hLx&pd_rd_wg=ThRWW&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=WC30M8W9JHGMS6RH3MCT&qid=1765195228&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=sumsung+mobile%2Caps%2C224&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                        - generic [ref=e2050]:
+                          - generic [ref=e2051]: ₹1,454
+                          - generic [ref=e2052]: ₹1,454
+                        - generic [ref=e2053]: "M.R.P: ₹2,199"
+                        - generic [ref=e2054]:
+                          - text: "M.R.P:"
+                          - generic [ref=e2055]:
+                            - generic [ref=e2056]: ₹2,199
+                            - text: ₹2,199
+                      - text: (34% off)
+                  - generic [ref=e2059]:
+                    - generic [ref=e2063]: FREE delivery Wed, 10 Dec
+                    - generic [ref=e2065]: Or fastest delivery Tomorrow, 9 Dec
+          - generic [ref=e2073]:
+            - generic "Related searches in samsung mobile phone under 20000" [ref=e2074]:
+              - heading "Related searches" [level=2] [ref=e2077]
+            - list [ref=e2079]:
+              - generic [ref=e2080]:
+                - listitem [ref=e2081]:
+                  - link "mobile phones under 20000" [ref=e2083] [cursor=pointer]:
+                    - /url: /s?k=mobile+phones+under+20000&ref=rsl_sug_0_0&pd_rd_w=Lc1vJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=ThRWW&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&qid=1765195228
+                    - generic [ref=e2088]: mobile phones under 20000
+                - listitem [ref=e2089]:
+                  - link "oppo mobile phone under 20000" [ref=e2091] [cursor=pointer]:
+                    - /url: /s?k=oppo+mobile+phone+under+20000&ref=rsl_sug_0_3&pd_rd_w=Lc1vJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=ThRWW&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&qid=1765195228
+                    - generic [ref=e2096]: oppo mobile phone under 20000
+              - generic [ref=e2097]:
+                - listitem [ref=e2098]:
+                  - link "samsung mobile phones" [ref=e2100] [cursor=pointer]:
+                    - /url: /s?k=samsung+mobile+phones&ref=rsl_sug_0_1&pd_rd_w=Lc1vJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=ThRWW&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&qid=1765195228
+                    - generic [ref=e2105]: samsung mobile phones
+                - listitem [ref=e2106]:
+                  - link "vivo 5g mobile phone" [ref=e2108] [cursor=pointer]:
+                    - /url: /s?k=vivo+5g+mobile+phone&ref=rsl_sug_0_4&pd_rd_w=Lc1vJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=ThRWW&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&qid=1765195228
+                    - generic [ref=e2113]: vivo 5g mobile phone
+              - generic [ref=e2114]:
+                - listitem [ref=e2115]:
+                  - link "vivo mobile phone under 20000" [ref=e2117] [cursor=pointer]:
+                    - /url: /s?k=vivo+mobile+phone+under+20000&ref=rsl_sug_0_2&pd_rd_w=Lc1vJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=ThRWW&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&qid=1765195228
+                    - generic [ref=e2122]: vivo mobile phone under 20000
+                - listitem [ref=e2123]:
+                  - link "oppo mobile phone" [ref=e2125] [cursor=pointer]:
+                    - /url: /s?k=oppo+mobile+phone&ref=rsl_sug_0_5&pd_rd_w=Lc1vJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=ThRWW&pd_rd_r=5a7af1e3-0d79-4b03-9b75-c2db4aa678b4&qid=1765195228
+                    - generic [ref=e2130]: oppo mobile phone
+          - navigation "pagination" [ref=e2133]:
+            - list [ref=e2135]:
+              - listitem [ref=e2136]:
+                - button "Previous" [disabled] [ref=e2138]:
+                  - img [ref=e2139]
+                  - text: Previous
+              - listitem [ref=e2141]:
+                - button "Page 1" [ref=e2143]: "1"
+              - listitem [ref=e2144]:
+                - button "Go to page 2" [ref=e2146] [cursor=pointer]: "2"
+              - listitem [ref=e2147]:
+                - button "Go to page 3" [ref=e2149] [cursor=pointer]: "3"
+              - button [disabled] [ref=e2150]:
+                - img [ref=e2151]: ...
+              - button "20" [disabled] [ref=e2153]
+              - listitem [ref=e2154]:
+                - button "Go to next page, page 2" [ref=e2156] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e2157]
+          - generic [ref=e2161]:
+            - separator [ref=e2162]
+            - generic [ref=e2163]:
+              - heading "Brands related to your search" [ref=e2164]
+              - button "Leave feedback on Sponsored ad" [ref=e2169] [cursor=pointer]: Sponsored
+              - generic [ref=e2173]:
+                - generic [ref=e2175]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JNANj69lcjy96yUoCNVGKKkAAAGa_dWk1QoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICB4jIDP/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0bBWcAX2E5DzvLKNvLNxoXRHp-agKcLYFlhEfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr70I-iJKeRm6-dyZwUeib8i3vJvK6Zy1lBHX1mZ1SWr3JYqfnqDdhxLjmecuEwx-RDmLeitZlpKfJTRyvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jt5SUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_5ozYP-uEcajtbuKsKDnNSLqRio3VXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGVOfNvRMpXRcIYiArc_prMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpo6SliLCysjqN72nRx6YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebZfAwQtD-9TJS9DjVzxlKX1oEuWh0qYQVmICB4hLryL_QT6Hm5sic5vIDOvg7g67BtI1dgUI94ernNRUbmPEJf4UVYzu52Z3kZeDpmooSXmmbUqCupmD4iVZqDLFZV6fpfOynuxhFU7rOA5wfMUql7sombnExaGXT5K3HHcgsmD3bwPZa2m3ChSL_M4TqAsUHraJWmxH5VtRSDLLzNVvDPWcGGLk5a4MAFr8kBURlqvrq2rukxYl6z0oEI3xsB1IkpMzcj_R5aAMSPVWblEB2tbXGHCBrdONQsxC9gItMfI_1YizJmkHTxybHS28IaLBj-nhxcLmxC23U2fRCGCWMOM49bjGZ/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05987279IFGC5XM6Y8L&pd_rd_plhdr=t&aaxitk=6dfdfa46ca5ff0bea75c23ca97afe63f&hsa_cr_id=5116256370902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=vv9dlOkuRD&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                      - link "Pikkme" [ref=e2176] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JNANj69lcjy96yUoCNVGKKkAAAGa_dWk1QoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICB4jIDP/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0bBWcAX2E5DzvLKNvLNxoXRHp-agKcLYFlhEfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr70I-iJKeRm6-dyZwUeib8i3vJvK6Zy1lBHX1mZ1SWr3JYqfnqDdhxLjmecuEwx-RDmLeitZlpKfJTRyvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jt5SUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_5ozYP-uEcajtbuKsKDnNSLqRio3VXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGVOfNvRMpXRcIYiArc_prMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpo6SliLCysjqN72nRx6YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebZfAwQtD-9TJS9DjVzxlKX1oEuWh0qYQVmICB4hLryL_QT6Hm5sic5vIDOvg7g67BtI1dgUI94ernNRUbmPEJf4UVYzu52Z3kZeDpmooSXmmbUqCupmD4iVZqDLFZV6fpfOynuxhFU7rOA5wfMUql7sombnExaGXT5K3HHcgsmD3bwPZa2m3ChSL_M4TqAsUHraJWmxH5VtRSDLLzNVvDPWcGGLk5a4MAFr8kBURlqvrq2rukxYl6z0oEI3xsB1IkpMzcj_R5aAMSPVWblEB2tbXGHCBrdONQsxC9gItMfI_1YizJmkHTxybHS28IaLBj-nhxcLmxC23U2fRCGCWMOM49bjGZ/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05987279IFGC5XM6Y8L&pd_rd_plhdr=t&aaxitk=6dfdfa46ca5ff0bea75c23ca97afe63f&hsa_cr_id=5116256370902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=vv9dlOkuRD&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                        - img "Pikkme" [ref=e2177]
+                      - generic [ref=e2179]:
+                        - generic [ref=e2180]:
+                          - link [ref=e2181] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNANj69lcjy96yUoCNVGKKkAAAGa_dWk1QoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICB4jIDP/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0bBWcAX2E5DzvLKNvLNxoXRHp-agKcLYFlhEfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr70I-iJKeRm6-dyZwUeib8i3vJvK6Zy1lBHX1mZ1SWr3JYqfnqDdhxLjmecuEwx-RDmLeitZlpKfJTRyvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jt5SUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_5ozYP-uEcajtbuKsKDnNSLqRio3VXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGVOfNvRMpXRcIYiArc_prMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpo6SliLCysjqN72nRx6YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebZfAwQtD-9TJS9DjVzxlKX1oEuWh0qYQVmICB4hLryL_QT6Hm5sic5vIDOvg7g67BtI1dgUI94ernNRUbmPEJf4UVYzu52Z3kZeDpmooSXmmbUqCupmD4iVZqDLFZV6fpfOynuxhFU7rOA5wfMUql7sombnExaGXT5K3HHcgsmD3bwPZa2m3ChSL_M4TqAsUHraJWmxH5VtRSDLLzNVvDPWcGGLk5a4MAFr8kBURlqvrq2rukxYl6z0oEI3xsB1IkpMzcj_R5aAMSPVWblEB2tbXGHCBrdONQsxC9gItMfI_1YizJmkHTxybHS28IaLBj-nhxcLmxC23U2fRCGCWMOM49bjGZ/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05987279IFGC5XM6Y8L&pd_rd_plhdr=t&aaxitk=6dfdfa46ca5ff0bea75c23ca97afe63f&hsa_cr_id=5116256370902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=vv9dlOkuRD&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                          - link "Pikkme" [ref=e2182] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNANj69lcjy96yUoCNVGKKkAAAGa_dWk1QoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICB4jIDP/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0bBWcAX2E5DzvLKNvLNxoXRHp-agKcLYFlhEfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr70I-iJKeRm6-dyZwUeib8i3vJvK6Zy1lBHX1mZ1SWr3JYqfnqDdhxLjmecuEwx-RDmLeitZlpKfJTRyvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jt5SUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_5ozYP-uEcajtbuKsKDnNSLqRio3VXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGVOfNvRMpXRcIYiArc_prMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpo6SliLCysjqN72nRx6YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebZfAwQtD-9TJS9DjVzxlKX1oEuWh0qYQVmICB4hLryL_QT6Hm5sic5vIDOvg7g67BtI1dgUI94ernNRUbmPEJf4UVYzu52Z3kZeDpmooSXmmbUqCupmD4iVZqDLFZV6fpfOynuxhFU7rOA5wfMUql7sombnExaGXT5K3HHcgsmD3bwPZa2m3ChSL_M4TqAsUHraJWmxH5VtRSDLLzNVvDPWcGGLk5a4MAFr8kBURlqvrq2rukxYl6z0oEI3xsB1IkpMzcj_R5aAMSPVWblEB2tbXGHCBrdONQsxC9gItMfI_1YizJmkHTxybHS28IaLBj-nhxcLmxC23U2fRCGCWMOM49bjGZ/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05987279IFGC5XM6Y8L&pd_rd_plhdr=t&aaxitk=6dfdfa46ca5ff0bea75c23ca97afe63f&hsa_cr_id=5116256370902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=vv9dlOkuRD&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                            - img "Pikkme" [ref=e2184]
+                        - generic [ref=e2185]:
+                          - link [ref=e2186] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNANj69lcjy96yUoCNVGKKkAAAGa_dWk1QoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICB4jIDP/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0bBWcAX2E5DzvLKNvLNxoXRHp-agKcLYFlhEfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr70I-iJKeRm6-dyZwUeib8i3vJvK6Zy1lBHX1mZ1SWr3JYqfnqDdhxLjmecuEwx-RDmLeitZlpKfJTRyvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jt5SUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_5ozYP-uEcajtbuKsKDnNSLqRio3VXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGVOfNvRMpXRcIYiArc_prMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpo6SliLCysjqN72nRx6YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebZfAwQtD-9TJS9DjVzxlKX1oEuWh0qYQVmICB4hLryL_QT6Hm5sic5vIDOvg7g67BtI1dgUI94ernNRUbmPEJf4UVYzu52Z3kZeDpmooSXmmbUqCupmD4iVZqDLFZV6fpfOynuxhFU7rOA5wfMUql7sombnExaGXT5K3HHcgsmD3bwPZa2m3ChSL_M4TqAsUHraJWmxH5VtRSDLLzNVvDPWcGGLk5a4MAFr8kBURlqvrq2rukxYl6z0oEI3xsB1IkpMzcj_R5aAMSPVWblEB2tbXGHCBrdONQsxC9gItMfI_1YizJmkHTxybHS28IaLBj-nhxcLmxC23U2fRCGCWMOM49bjGZ/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05987279IFGC5XM6Y8L&pd_rd_plhdr=t&aaxitk=6dfdfa46ca5ff0bea75c23ca97afe63f&hsa_cr_id=5116256370902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=vv9dlOkuRD&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                          - link "Stylish Back Cover For Samsung J7 Prime" [ref=e2187] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNANj69lcjy96yUoCNVGKKkAAAGa_dWk1QoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICB4jIDP/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0bBWcAX2E5DzvLKNvLNxoXRHp-agKcLYFlhEfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflr70I-iJKeRm6-dyZwUeib8i3vJvK6Zy1lBHX1mZ1SWr3JYqfnqDdhxLjmecuEwx-RDmLeitZlpKfJTRyvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jt5SUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_5ozYP-uEcajtbuKsKDnNSLqRio3VXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGVOfNvRMpXRcIYiArc_prMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpo6SliLCysjqN72nRx6YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebZfAwQtD-9TJS9DjVzxlKX1oEuWh0qYQVmICB4hLryL_QT6Hm5sic5vIDOvg7g67BtI1dgUI94ernNRUbmPEJf4UVYzu52Z3kZeDpmooSXmmbUqCupmD4iVZqDLFZV6fpfOynuxhFU7rOA5wfMUql7sombnExaGXT5K3HHcgsmD3bwPZa2m3ChSL_M4TqAsUHraJWmxH5VtRSDLLzNVvDPWcGGLk5a4MAFr8kBURlqvrq2rukxYl6z0oEI3xsB1IkpMzcj_R5aAMSPVWblEB2tbXGHCBrdONQsxC9gItMfI_1YizJmkHTxybHS28IaLBj-nhxcLmxC23U2fRCGCWMOM49bjGZ/https://www.amazon.in/stores/page/4D4D801C-BE70-48F5-A9BC-B397C988C5DC/?_encoding=UTF8&store_ref=SB_A04271051KQXVI97E0J1T-A05987279IFGC5XM6Y8L&pd_rd_plhdr=t&aaxitk=6dfdfa46ca5ff0bea75c23ca97afe63f&hsa_cr_id=5116256370902&lp_asins=B084RVXBXJ%2CB08L5D4MTN&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=vv9dlOkuRD&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                            - generic [ref=e2189]:
+                              - generic [ref=e2190]: Stylish Back Cover For Samsung J7 Prime
+                              - generic [ref=e2191]: Stylish Back Cover For Samsung J7 Prime
+                - generic [ref=e2193]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JMdlviSOrR-ku1Hh14T0b9oAAAGa_dWk1woAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBzcwB2/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0eBWcAFxJccgOwSNbTTXpSW0xRe1uZJpgmskfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflpb1LMmQNN1V8-dMfx82ivUn5epIL7Vc0VJ-P1iW_yWr3JYqfnqDdhxLjmecuEw9uxLIJaOsSGgGfLrRhvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C9dokouJvG4Jnc6yNt-EnNCgq3KzwFXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGFCxBL5PpVYfIYiUrMzTrMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpjYbniZ6Q-zqN72nT16YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebWPAjUbfzCd1NkR05OQeE0i5rpqylri-q4dq0KmKoMS4pJmKQsOuHorAZJvognKvZtZUVxlp9oPrmcEtGw-YOP8dOdDH6wIbkZbzulZJtCGabRsnvtXfliB53FLsGGa3rf_H28wRbDOzOFptdJgi17494MyZjQQm5le70KvUN0gHs8tda0XnGuXjODvjXEsUO65xsvSTSFdtyN5RuY34OX5oaX1hYYeFXH64CPGprv6DDg8L9x6UIszNPIXcAc2Mcr5Cav_tKaAMEDVqotER--YbYPigYRO1QsxC9gItMfI_1XS_vpUL8-wP4d3wRVLN6EhkNOt-sANJIo-r6pw1wr3kkeHUjFxG98JM/https://www.amazon.in/stores/page/4596E32D-4B5B-45B6-9FAF-927F6FE08BC7/?_encoding=UTF8&store_ref=SB_A000014329S52EI1OQOZP-A05520793IG229EXY1VTT&pd_rd_plhdr=t&aaxitk=9da21a99805670b413cac1d3d690da26&hsa_cr_id=1305952140102&lp_asins=B09W9TB4YR%2CB0B6Q1KCH7%2CB09W9S7QTS&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=ymDXwBEb3X&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                      - link "SOOPII" [ref=e2194] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JMdlviSOrR-ku1Hh14T0b9oAAAGa_dWk1woAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBzcwB2/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0eBWcAFxJccgOwSNbTTXpSW0xRe1uZJpgmskfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflpb1LMmQNN1V8-dMfx82ivUn5epIL7Vc0VJ-P1iW_yWr3JYqfnqDdhxLjmecuEw9uxLIJaOsSGgGfLrRhvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C9dokouJvG4Jnc6yNt-EnNCgq3KzwFXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGFCxBL5PpVYfIYiUrMzTrMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpjYbniZ6Q-zqN72nT16YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebWPAjUbfzCd1NkR05OQeE0i5rpqylri-q4dq0KmKoMS4pJmKQsOuHorAZJvognKvZtZUVxlp9oPrmcEtGw-YOP8dOdDH6wIbkZbzulZJtCGabRsnvtXfliB53FLsGGa3rf_H28wRbDOzOFptdJgi17494MyZjQQm5le70KvUN0gHs8tda0XnGuXjODvjXEsUO65xsvSTSFdtyN5RuY34OX5oaX1hYYeFXH64CPGprv6DDg8L9x6UIszNPIXcAc2Mcr5Cav_tKaAMEDVqotER--YbYPigYRO1QsxC9gItMfI_1XS_vpUL8-wP4d3wRVLN6EhkNOt-sANJIo-r6pw1wr3kkeHUjFxG98JM/https://www.amazon.in/stores/page/4596E32D-4B5B-45B6-9FAF-927F6FE08BC7/?_encoding=UTF8&store_ref=SB_A000014329S52EI1OQOZP-A05520793IG229EXY1VTT&pd_rd_plhdr=t&aaxitk=9da21a99805670b413cac1d3d690da26&hsa_cr_id=1305952140102&lp_asins=B09W9TB4YR%2CB0B6Q1KCH7%2CB09W9S7QTS&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=ymDXwBEb3X&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                        - img "SOOPII" [ref=e2195]
+                      - generic [ref=e2197]:
+                        - generic [ref=e2198]:
+                          - link [ref=e2199] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JMdlviSOrR-ku1Hh14T0b9oAAAGa_dWk1woAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBzcwB2/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0eBWcAFxJccgOwSNbTTXpSW0xRe1uZJpgmskfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflpb1LMmQNN1V8-dMfx82ivUn5epIL7Vc0VJ-P1iW_yWr3JYqfnqDdhxLjmecuEw9uxLIJaOsSGgGfLrRhvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C9dokouJvG4Jnc6yNt-EnNCgq3KzwFXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGFCxBL5PpVYfIYiUrMzTrMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpjYbniZ6Q-zqN72nT16YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebWPAjUbfzCd1NkR05OQeE0i5rpqylri-q4dq0KmKoMS4pJmKQsOuHorAZJvognKvZtZUVxlp9oPrmcEtGw-YOP8dOdDH6wIbkZbzulZJtCGabRsnvtXfliB53FLsGGa3rf_H28wRbDOzOFptdJgi17494MyZjQQm5le70KvUN0gHs8tda0XnGuXjODvjXEsUO65xsvSTSFdtyN5RuY34OX5oaX1hYYeFXH64CPGprv6DDg8L9x6UIszNPIXcAc2Mcr5Cav_tKaAMEDVqotER--YbYPigYRO1QsxC9gItMfI_1XS_vpUL8-wP4d3wRVLN6EhkNOt-sANJIo-r6pw1wr3kkeHUjFxG98JM/https://www.amazon.in/stores/page/4596E32D-4B5B-45B6-9FAF-927F6FE08BC7/?_encoding=UTF8&store_ref=SB_A000014329S52EI1OQOZP-A05520793IG229EXY1VTT&pd_rd_plhdr=t&aaxitk=9da21a99805670b413cac1d3d690da26&hsa_cr_id=1305952140102&lp_asins=B09W9TB4YR%2CB0B6Q1KCH7%2CB09W9S7QTS&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=ymDXwBEb3X&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                          - link "SOOPII" [ref=e2200] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JMdlviSOrR-ku1Hh14T0b9oAAAGa_dWk1woAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBzcwB2/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0eBWcAFxJccgOwSNbTTXpSW0xRe1uZJpgmskfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflpb1LMmQNN1V8-dMfx82ivUn5epIL7Vc0VJ-P1iW_yWr3JYqfnqDdhxLjmecuEw9uxLIJaOsSGgGfLrRhvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C9dokouJvG4Jnc6yNt-EnNCgq3KzwFXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGFCxBL5PpVYfIYiUrMzTrMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpjYbniZ6Q-zqN72nT16YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebWPAjUbfzCd1NkR05OQeE0i5rpqylri-q4dq0KmKoMS4pJmKQsOuHorAZJvognKvZtZUVxlp9oPrmcEtGw-YOP8dOdDH6wIbkZbzulZJtCGabRsnvtXfliB53FLsGGa3rf_H28wRbDOzOFptdJgi17494MyZjQQm5le70KvUN0gHs8tda0XnGuXjODvjXEsUO65xsvSTSFdtyN5RuY34OX5oaX1hYYeFXH64CPGprv6DDg8L9x6UIszNPIXcAc2Mcr5Cav_tKaAMEDVqotER--YbYPigYRO1QsxC9gItMfI_1XS_vpUL8-wP4d3wRVLN6EhkNOt-sANJIo-r6pw1wr3kkeHUjFxG98JM/https://www.amazon.in/stores/page/4596E32D-4B5B-45B6-9FAF-927F6FE08BC7/?_encoding=UTF8&store_ref=SB_A000014329S52EI1OQOZP-A05520793IG229EXY1VTT&pd_rd_plhdr=t&aaxitk=9da21a99805670b413cac1d3d690da26&hsa_cr_id=1305952140102&lp_asins=B09W9TB4YR%2CB0B6Q1KCH7%2CB09W9S7QTS&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=ymDXwBEb3X&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                            - img "SOOPII" [ref=e2202]
+                        - generic [ref=e2203]:
+                          - link [ref=e2204] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JMdlviSOrR-ku1Hh14T0b9oAAAGa_dWk1woAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBzcwB2/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0eBWcAFxJccgOwSNbTTXpSW0xRe1uZJpgmskfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflpb1LMmQNN1V8-dMfx82ivUn5epIL7Vc0VJ-P1iW_yWr3JYqfnqDdhxLjmecuEw9uxLIJaOsSGgGfLrRhvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C9dokouJvG4Jnc6yNt-EnNCgq3KzwFXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGFCxBL5PpVYfIYiUrMzTrMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpjYbniZ6Q-zqN72nT16YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebWPAjUbfzCd1NkR05OQeE0i5rpqylri-q4dq0KmKoMS4pJmKQsOuHorAZJvognKvZtZUVxlp9oPrmcEtGw-YOP8dOdDH6wIbkZbzulZJtCGabRsnvtXfliB53FLsGGa3rf_H28wRbDOzOFptdJgi17494MyZjQQm5le70KvUN0gHs8tda0XnGuXjODvjXEsUO65xsvSTSFdtyN5RuY34OX5oaX1hYYeFXH64CPGprv6DDg8L9x6UIszNPIXcAc2Mcr5Cav_tKaAMEDVqotER--YbYPigYRO1QsxC9gItMfI_1XS_vpUL8-wP4d3wRVLN6EhkNOt-sANJIo-r6pw1wr3kkeHUjFxG98JM/https://www.amazon.in/stores/page/4596E32D-4B5B-45B6-9FAF-927F6FE08BC7/?_encoding=UTF8&store_ref=SB_A000014329S52EI1OQOZP-A05520793IG229EXY1VTT&pd_rd_plhdr=t&aaxitk=9da21a99805670b413cac1d3d690da26&hsa_cr_id=1305952140102&lp_asins=B09W9TB4YR%2CB0B6Q1KCH7%2CB09W9S7QTS&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=ymDXwBEb3X&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                          - link "Premium Mobile, iPads and Tablet Stands by Soopii" [ref=e2205] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JMdlviSOrR-ku1Hh14T0b9oAAAGa_dWk1woAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBzcwB2/clv1_CEuOPUxokZA0iHrVf-Uk4DrRRV5df5kMrqY_zQWLx8NV139VtUneOv018HHz9hvVjq0yzpNb3X7OfU0eBWcAFxJccgOwSNbTTXpSW0xRe1uZJpgmskfB8IkGXCQYVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7udy5iya7UILmeP1aK1xkuNcA7FBIOT3_cq0eVrbNPflpb1LMmQNN1V8-dMfx82ivUn5epIL7Vc0VJ-P1iW_yWr3JYqfnqDdhxLjmecuEw9uxLIJaOsSGgGfLrRhvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn4816FYBt4Rsb2LfdZzNAeWszus1846U3e2sgY3-FuU0bkQ_SWcBJ6wcRjnky9eQY-d16FHGALmwYzbbebN2476DmCGBVKS7phTXfedVV_Bhbz4ILT_7LnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C9dokouJvG4Jnc6yNt-EnNCgq3KzwFXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg202tVH5VCOsrQjJRVUloEpTKxiLsIU5GfguLxbBF7TFrerQB6r2GyAVhvDI1NN6xgEhK54pjviVeUEuBCoCiGBX8W61QP98cVW-sVa7PNzEmDY2Tf52yv97iUCXl3Y4YS9kwPj1kHLWfGFCxBL5PpVYfIYiUrMzTrMU5Tt7ikAMtH-J1rUc9X2sufcnDF1_xO5kpjYbniZ6Q-zqN72nT16YOrxNJZ_gAO2W9dm3h1kydQgEAi0D7LPiC2el8p6dMwD6j2sFMIETFNmZtKVy81EKshy0MIZ3-WrAQy--qbiObRoNhWYQzh3Yo1aUi17CI8xeYqVuSCN_yX-swc9nQ-_h4nAeW3Yg8KbYzUw2nwGz2gcMpUEcDzL_q54Yl-HVfbcJoEfRSidsvi1eoWwqL5-SzBHuwZoVOLRTxV2mtSxruSCgnRoCba6WVjiiAN2dKybQxna3drkh4MQRWzKc5FeoxChriNjCQ8XYJOGjYtLy0gwfvN3b9FUDN_x_nQeUN3pgY7_BZ30cCrlvLS2KdNEV_-JcQmuGtsCT5eQ9NT5pOPbDebNUdAQjBrs74AH7ZN0u5E7w2iumL9Om__qWDTLxzBfsgtP5fQ8P0bEjn45flSsXQMlE9XD9AzOHXwbwI_IP9qXDDxIewd1vtCzeYyzRMsXJ2bLWNSCjzNkCXz500Dk-3hylpya0OTS_QLXwWHK5I_d0_XqqLIv0mvJDIaGIp88KWos2MnepFWYzHlAlWo1mxl4UaDgXuxwlhtiqgqIR6GBPF8nONjOKB6_0HaqhXzyGVA-8c6Isi_DGkqu4jMvg6R5BO2FYqLvKs0WHsV-SXewfKn5GhE6quzaMG9N4TTPia9vEimQIpdM1FFagfsvGWBCHPJ6OWmdloUPuPW8J3aTJ_ii03kN_vKra8uEUhdpOWyNcgx8zeTylAg8__0ClNUw3AJ_a9tixW_dJeW4f3jaAAlksVGy5G5qbaWYp02T65Dz1GnMPqY1plG9uUy5GwfKO4I2DyvMFuBGyreJ0aHgn7FerCKy4pXMyob7DPt0XR6k8_M9ZAbzBWYdI6jWlfoNL6iebTtdNDUvqYb9wKSMZWbf1boqJ9cXEzUbAf6y55MqGG2Gonal9gAPjGYlGyNCDMDEI7C7SU2eWDI49ckRZMJcujWvpzUTboL6cYjLMmhE2ncRM5vB4rA0g4cy-fB1P-0HebWPAjUbfzCd1NkR05OQeE0i5rpqylri-q4dq0KmKoMS4pJmKQsOuHorAZJvognKvZtZUVxlp9oPrmcEtGw-YOP8dOdDH6wIbkZbzulZJtCGabRsnvtXfliB53FLsGGa3rf_H28wRbDOzOFptdJgi17494MyZjQQm5le70KvUN0gHs8tda0XnGuXjODvjXEsUO65xsvSTSFdtyN5RuY34OX5oaX1hYYeFXH64CPGprv6DDg8L9x6UIszNPIXcAc2Mcr5Cav_tKaAMEDVqotER--YbYPigYRO1QsxC9gItMfI_1XS_vpUL8-wP4d3wRVLN6EhkNOt-sANJIo-r6pw1wr3kkeHUjFxG98JM/https://www.amazon.in/stores/page/4596E32D-4B5B-45B6-9FAF-927F6FE08BC7/?_encoding=UTF8&store_ref=SB_A000014329S52EI1OQOZP-A05520793IG229EXY1VTT&pd_rd_plhdr=t&aaxitk=9da21a99805670b413cac1d3d690da26&hsa_cr_id=1305952140102&lp_asins=B09W9TB4YR%2CB0B6Q1KCH7%2CB09W9S7QTS&lp_query=samsung%20mobile%20phone%20under%2020000&lp_slot=desktop-hsa-3psl&aref=ymDXwBEb3X&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=m9krh&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=WC30M8W9JHGMS6RH3MCT&pd_rd_wg=9GY9j&pd_rd_r=25f21031-7a2b-4f12-b5fd-d8a1f297ae6f
+                            - generic [ref=e2207]:
+                              - generic [ref=e2208]: Premium Mobile, iPads and Tablet Stands by Soopii
+                              - generic [ref=e2209]: Premium Mobile, iPads and Tablet Stands by Soopii
+          - generic [ref=e2215]:
+            - heading "Need help?" [level=2] [ref=e2218]
+            - generic [ref=e2219]:
+              - link "Visit the help section" [ref=e2220] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201889520
+              - text: or
+              - link "contact us" [ref=e2221] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+          - generic [ref=e2224]:
+            - iframe [ref=e2225]:
+              - generic [ref=f1e4]:
+                - link "Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display" [ref=f1e7] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/RGi8wP3uaW3e6fEemCat-uQAAAGa_dWkqwoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAujC00/clv1_CEuOPUxokZA9iHrVCvcA5SbrTF1nUZ0TuJdZ6iKY_Nxyx382ukneOv018HFItlC9gqEp25IbmnkC2QrDHwxaFWElOnyJHMasCxE3OHBTUgD_Qa8EC1UE89J9PA5z0iQI0xgbr4CVzXSg992lWH2BsJqfqLz_LYqBwezpOGJTSWvKz-TP0A9_AwL6a8asbPVvDm5ZatvBlJAaGDVhJ9pPeOEBzMmuj9Q7BRDVTeIh3R8Eu592kKrmQUwvwki1wFwcXzj1L_vC-RRzkVcdIth3Kk7-MFCbozbBIv-27fLJZLYSeG2Z8aSZ5RbUQAXdEYun8Mkk1qZQV9bUTfWrxJfOe71c2sxmcRsspIcY9t84EMIJKgESbiChSJLREYadBZ4SEGedfnhD/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo4MjM2NjYxODc5NTA4ODc4OjE3NjUxOTUyMjg6c3Bfc2VhcmNoX2Zvb3Rlcl9zaGFyZWQ6MzAwNTczMzM1MjY5MzMyOjo6Og&url=%2Fdp%2FB0CWPC2W5V%2Fref%3Dsspa_dk_bot_sx_aax_0%3Fpsc%3D1%26aref%3DsKekvHszPd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfZm9vdGVyX3NoYXJlZA&aref=sKekvHszPd&sp_cr=ZAZ
+                - generic [ref=f1e8]:
+                  - img "Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display" [ref=f1e10]
+                  - generic [ref=f1e11]:
+                    - generic [ref=f1e12]: Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP...
+                    - generic [ref=f1e13]:
+                      - text: ₹24,999.00
+                      - link "4,363" [ref=f1e14] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/RGi8wP3uaW3e6fEemCat-uQAAAGa_dWkqwoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAujC00/clv1_CEuOPUxokZA9iHrVCvcA5SbrTF1nUZ0TuJdZ6iKY_Nxyx382ukneOv018HFItlC9gqEp25IbmnkC2QrDHwxaFWElOnyJHMasCxE3OHBTUgD_Qa8EC1UE89J9PA5z0iQI0xgbr4CVzXSg992lWH2BsJqfqLz_LYqBwezpOGJTSWvKz-TP0A9_AwL6a8asbPVvDm5ZatvBlJAaGDVhJ9pPeOEBzMmuj9Q7BRDVTeIh3R8Eu592kKrmQUwvwki1wFwcXzj1L_vC-RRzkVcdIth3Kk7-MFCbozbBIv-27fLJZLYSeG2Z8aSZ5RbUQAXdEYun8Mkk1qZQV9bUTfWrxJfOe71c2sxmcRsspIcY9t84EMIJKgESbiChSJLREYadBZ4SEGedfnhD/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo4MjM2NjYxODc5NTA4ODc4OjE3NjUxOTUyMjg6c3Bfc2VhcmNoX2Zvb3Rlcl9zaGFyZWQ6MzAwNTczMzM1MjY5MzMyOjo6Og&url=%2Fdp%2FB0CWPC2W5V%2Fref%3Dsspa_dk_bot_sx_aax_0%3Fpsc%3D1%26aref%3DsKekvHszPd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfZm9vdGVyX3NoYXJlZA&aref=sKekvHszPd&sp_cr=ZAZ#customerReviews
+                        - text: 4,363
+                  - link "Shop now" [ref=f1e18] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/RGi8wP3uaW3e6fEemCat-uQAAAGa_dWkqwoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAujC00/clv1_CEuOPUxokZA9iHrVCvcA5SbrTF1nUZ0TuJdZ6iKY_Nxyx382ukneOv018HFItlC9gqEp25IbmnkC2QrDHwxaFWElOnyJHMasCxE3OHBTUgD_Qa8EC1UE89J9PA5z0iQI0xgbr4CVzXSg992lWH2BsJqfqLz_LYqBwezpOGJTSWvKz-TP0A9_AwL6a8asbPVvDm5ZatvBlJAaGDVhJ9pPeOEBzMmuj9Q7BRDVTeIh3R8Eu592kKrmQUwvwki1wFwcXzj1L_vC-RRzkVcdIth3Kk7-MFCbozbBIv-27fLJZLYSeG2Z8aSZ5RbUQAXdEYun8Mkk1qZQV9bUTfWrxJfOe71c2sxmcRsspIcY9t84EMIJKgESbiChSJLREYadBZ4SEGedfnhD/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo4MjM2NjYxODc5NTA4ODc4OjE3NjUxOTUyMjg6c3Bfc2VhcmNoX2Zvb3Rlcl9zaGFyZWQ6MzAwNTczMzM1MjY5MzMyOjo6Og&url=%2Fdp%2FB0CWPC2W5V%2Fref%3Dsspa_dk_bot_sx_aax_0%3Fpsc%3D1%26aref%3DsKekvHszPd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfZm9vdGVyX3NoYXJlZA&aref=sKekvHszPd&sp_cr=ZAZ
+            - button "Leave feedback on Sponsored advertisement" [ref=e2227] [cursor=pointer]:
+              - generic [ref=e2228]: Sponsored
+        - link "Go back to filtering menu" [ref=e2230] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=e2231]:
+        - generic [ref=e2232]:
+          - link "Skip to main search results" [ref=e2233] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=e2235]:
+            - generic [ref=e2239]:
+              - group "Brands" [ref=e2240]:
+                - heading "Brands" [level=2] [ref=e2241]
+                - list "Brands" [ref=e2242]:
+                  - listitem [ref=e2243]:
+                    - link "Apply the filter Samsung to narrow results" [ref=e2245] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_123%3A46655&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=91049095031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_123_1&ds=v1%3Au%2B7aRhlX%2BATMSP5xh%2F0%2FL%2Fk2lLOMO4p1cSdFOkxlGyg
+                      - checkbox [ref=e2248]
+                      - text: Samsung
+                  - listitem [ref=e2250]:
+                    - link "Apply the filter OnePlus to narrow results" [ref=e2252] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_123%3A253649&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=91049095031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_123_2&ds=v1%3AOyHveQvoPce4UbphpsI9Pk3o1T%2F2zSuccwmy%2FJHCb1Y
+                      - checkbox [ref=e2255]
+                      - text: OnePlus
+                  - listitem [ref=e2257]:
+                    - link "Apply the filter Motorola to narrow results" [ref=e2259] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_123%3A146762&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=91049095031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_123_3&ds=v1%3AU0mFtlr3J%2F%2F98D5SdZLet872SR8KaVeNHD%2BMlQoQbOI
+                      - checkbox [ref=e2262]
+                      - text: Motorola
+              - group "Customer Reviews" [ref=e2264]:
+                - heading "Customer Reviews" [level=2] [ref=e2265]
+                - list "Customer Reviews" [ref=e2266]:
+                  - listitem [ref=e2267]:
+                    - link "Apply the filter 4 Stars & Up to narrow results" [ref=e2270] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_72%3A1318476031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=1318475031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_72_1&ds=v1%3AIsozirX8popkpuh4Cjb60h9L16IMeEs5JUxJLbiTgv4
+                      - generic [ref=e2272]: 4 Stars
+                      - text: "& Up"
+              - group [ref=e2273]:
+                - generic [ref=e2274]:
+                  - generic [ref=e2275]: Price
+                  - generic [ref=e2278]:
+                    - generic [ref=e2279]:
+                      - generic [ref=e2280]: ₹130
+                      - generic [ref=e2281]: –
+                      - generic [ref=e2282]: ₹17,700+
+                    - generic [ref=e2284]:
+                      - generic:
+                        - slider "Minimum price": "0"
+                      - generic [ref=e2285]:
+                        - slider "Maximum price": "179"
+                - heading "Deals & Discounts" [level=2] [ref=e2286]
+                - list "Deals & Discounts" [ref=e2287]:
+                  - listitem [ref=e2288]:
+                    - link "All Discounts" [ref=e2290] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_deal_type%3A26921226031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=26921223031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_deal_type_1&ds=v1%3AywAk%2BCrHZrVz%2BHtQ%2B%2B%2Frb2RbrY%2B9UGkS4aA%2Bk6k21gY
+                  - listitem [ref=e2291]:
+                    - link "Today's Deals" [ref=e2293] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_deal_type%3A26921224031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=26921223031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_deal_type_2&ds=v1%3AHrVsxkr%2Bdcj%2FG3zUL5fWAIoNGBgwcGlqt%2FA1zcjpYsk
+              - group "Storage Capacity" [ref=e2294]:
+                - heading "Storage Capacity" [level=2] [ref=e2295]
+                - list "Storage Capacity" [ref=e2296]:
+                  - listitem [ref=e2297]:
+                    - link "Apply the filter 64 GB to narrow results" [ref=e2299] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003492455111%3A81332998031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=44349045031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003492455111_1&ds=v1%3AOHr2bFLWT8P%2Bs8kRMxXrJleEyljquJkHNBx2Zs4PJiU
+                      - checkbox [ref=e2302]
+                      - text: 64 GB
+                  - listitem [ref=e2304]:
+                    - link "Apply the filter 128 GB to narrow results" [ref=e2306] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003492455111%3A81332994031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=44349045031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003492455111_2&ds=v1%3ABkqSj%2FUjzVZQj%2BdLsqDdr7pfldwLzmOEFnitwTim%2F7Y
+                      - checkbox [ref=e2309]
+                      - text: 128 GB
+                  - listitem [ref=e2311]:
+                    - link "Apply the filter 256 GB to narrow results" [ref=e2313] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003492455111%3A81332996031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=44349045031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003492455111_3&ds=v1%3AXuMd014Xzr4GA8yE2JmJvk%2BFnjiUrwhtmfmteVpuS4w
+                      - checkbox [ref=e2316]
+                      - text: 256 GB
+              - group "RAM Size" [ref=e2318]:
+                - heading "RAM Size" [level=2] [ref=e2319]
+                - list "RAM Size" [ref=e2320]:
+                  - listitem [ref=e2321]:
+                    - link "Apply the filter 4 to 5.9 GB to narrow results" [ref=e2323] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003495121111%3A44897296031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=44897277031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003495121111_1&ds=v1%3AF95vxFR%2FvB4%2FNGFogBoipzX6YIyB0x5ON35A9ljbo2k
+                      - checkbox [ref=e2326]
+                      - text: 4 to 5.9 GB
+                  - listitem [ref=e2328]:
+                    - link "Apply the filter 6 to 7.9 GB to narrow results" [ref=e2330] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003495121111%3A44897287031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=44897277031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003495121111_2&ds=v1%3ARxX1ttpxn6reI7wwAPnwVZfbmo0RZatvJy9lJeUEcrY
+                      - checkbox [ref=e2333]
+                      - text: 6 to 7.9 GB
+                  - listitem [ref=e2335]:
+                    - link "Apply the filter 8 to 9.9 GB to narrow results" [ref=e2337] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003495121111%3A44897288031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=44897277031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003495121111_3&ds=v1%3AsWf2cu9p6FcL%2BO5VK3mmiWZ4X6EojLz3p1kCz9aDvs8
+                      - checkbox [ref=e2340]
+                      - text: 8 to 9.9 GB
+              - group "Battery Capacity" [ref=e2342]:
+                - heading "Battery Capacity" [level=2] [ref=e2343]
+                - list "Battery Capacity" [ref=e2344]:
+                  - listitem [ref=e2345]:
+                    - link "Apply the filter 3,000 to 3,999 mAh to narrow results" [ref=e2347] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015098008111%3A91805327031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=91805324031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015098008111_1&ds=v1%3A55m5wfWTHFFwrpLop2%2FnVDXHcWPI8q1c5EAotAoe%2FZ0
+                      - checkbox [ref=e2350]
+                      - text: 3,000 to 3,999 mAh
+                  - listitem [ref=e2352]:
+                    - link "Apply the filter 5,000 to 5,999 mAh to narrow results" [ref=e2354] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015098008111%3A91805326031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=91805324031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015098008111_2&ds=v1%3Au%2FSf7A4i%2Bl%2B0AUKn%2BlJ5kKxWzZxYdfGkw2jucnz66l4
+                      - checkbox [ref=e2357]
+                      - text: 5,000 to 5,999 mAh
+                  - listitem [ref=e2359]:
+                    - link "Apply the filter 6,000 mAh & Above to narrow results" [ref=e2361] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015098008111%3A92071917031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=91805324031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015098008111_3&ds=v1%3A6zxE5wsYOF3z7Oi5WIJQKvZvkB3NlNLbPTzfF%2Fo8dz4
+                      - checkbox [ref=e2364]
+                      - text: 6,000 mAh & Above
+              - group "Cellular Technology" [ref=e2366]:
+                - heading "Cellular Technology" [level=2] [ref=e2367]
+                - list "Cellular Technology" [ref=e2368]:
+                  - listitem [ref=e2369]:
+                    - link "Apply the filter 2G to narrow results" [ref=e2371] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003469290111%3A33962380031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=33962288031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003469290111_1&ds=v1%3AyCi9LktZXtgrcWB84TrTZVMHz5LLDaH43pvgL9OvygU
+                      - checkbox [ref=e2374]
+                      - text: 2G
+                  - listitem [ref=e2376]:
+                    - link "Apply the filter 4G to narrow results" [ref=e2378] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003469290111%3A33962379031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=33962288031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003469290111_2&ds=v1%3AKY5ttuZBNeexOKysMUUYYTt0BVG4MD38jWehBkLqi8o
+                      - checkbox [ref=e2381]
+                      - text: 4G
+                  - listitem [ref=e2383]:
+                    - link "Apply the filter 5G to narrow results" [ref=e2385] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003469290111%3A33962382031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=33962288031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003469290111_3&ds=v1%3AkHSrJ%2BWbVtH8VW59ij4mZ5R6h32OPzLaJMlD2t96LUA
+                      - checkbox [ref=e2388]
+                      - text: 5G
+              - group "Item Condition" [ref=e2390]:
+                - heading "Item Condition" [level=2] [ref=e2391]
+                - list "Item Condition" [ref=e2392]:
+                  - listitem [ref=e2393]:
+                    - link "Apply the filter New to narrow results" [ref=e2395] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_condition-type%3A8609960031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=8609959031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_condition-type_1&ds=v1%3AaC96y4dmj728pSukF9nnROmxHbAYG7Oa%2F8UVI5FWsSw
+                      - checkbox [ref=e2398]
+                      - text: New
+              - group "Processor Speed" [ref=e2400]:
+                - heading "Processor Speed" [level=2] [ref=e2401]
+                - list "Processor Speed" [ref=e2402]:
+                  - listitem [ref=e2403]:
+                    - link "Apply the filter Less Than 0.99 GHz to narrow results" [ref=e2405] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_feature_nine_browse-bin%3A8561128031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=8561123031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_feature_nine_browse-bin_1&ds=v1%3AzbmLdaUjEq3Rhibymd%2BA7Fw434arjGhtSc3d2IHdaBI
+                      - checkbox [ref=e2408]
+                      - text: Less Than 0.99 GHz
+                  - listitem [ref=e2410]:
+                    - link "Apply the filter 2 - 2.4 GHz to narrow results" [ref=e2412] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_feature_nine_browse-bin%3A8561126031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=8561123031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_feature_nine_browse-bin_2&ds=v1%3AO1eVCeVQDMFGSC9v%2FKCnlu6FPnLLwKgCnGeimjSTVHQ
+                      - checkbox [ref=e2415]
+                      - text: 2 - 2.4 GHz
+                  - listitem [ref=e2417]:
+                    - link "Apply the filter 2.5 GHz & Above to narrow results" [ref=e2419] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_feature_nine_browse-bin%3A8561127031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=8561123031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_feature_nine_browse-bin_3&ds=v1%3AeHvlx7FmjJ3aYnennRO5ejm8drUyMeNXUmwlkaAoQzs
+                      - checkbox [ref=e2422]
+                      - text: 2.5 GHz & Above
+              - group "Display Size" [ref=e2424]:
+                - heading "Display Size" [level=2] [ref=e2425]
+                - list "Display Size" [ref=e2426]:
+                  - listitem [ref=e2427]:
+                    - link "Apply the filter 5.5 in & above to narrow results" [ref=e2429] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1004194492091%3A6631756031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=6631751031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1004194492091_1&ds=v1%3A%2BtIvGy8wTv23f%2BzEJj%2BFklyCojzvWINRgkTVLbpSGeU
+                      - checkbox [ref=e2432]
+                      - text: 5.5 in & above
+              - group "Mobile Phone Primary Camera Resolution" [ref=e2434]:
+                - heading "Mobile Phone Primary Camera Resolution" [level=2] [ref=e2435]
+                - list "Mobile Phone Primary Camera Resolution" [ref=e2436]:
+                  - listitem [ref=e2437]:
+                    - link "Apply the filter 32 MP & Above to narrow results" [ref=e2439] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_feature_fourteen_browse-bin%3A21329559031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=21345983031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_feature_fourteen_browse-bin_1&ds=v1%3Awzn0TBCBK5mz0OgnrAO8mPapQIpXy17Sk%2BPspFNCDlw
+                      - checkbox [ref=e2442]
+                      - text: 32 MP & Above
+              - group "Camera Resolution" [ref=e2444]:
+                - heading "Camera Resolution" [level=2] [ref=e2445]
+                - list "Camera Resolution" [ref=e2446]:
+                  - listitem [ref=e2447]:
+                    - link "Apply the filter 20 MP & above to narrow results" [ref=e2449] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1004151207091%3A1898707031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=1898694031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1004151207091_1&ds=v1%3ANSA8hOoQtactQU2P2xV4mwMq2df2qJ3WmY76dbb%2B7BU
+                      - checkbox [ref=e2452]
+                      - text: 20 MP & above
+              - group "Display Type" [ref=e2454]:
+                - heading "Display Type" [level=2] [ref=e2455]
+                - list "Display Type" [ref=e2456]:
+                  - listitem [ref=e2457]:
+                    - link "Apply the filter AMOLED to narrow results" [ref=e2459] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101013595158111%3A66009619031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=66009617031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101013595158111_1&ds=v1%3A9MuXE3Fi9iwd3bvF5ughnnI9IlJwDpexfku8URyfcbQ
+                      - checkbox [ref=e2462]
+                      - text: AMOLED
+                  - listitem [ref=e2464]:
+                    - link "Apply the filter LCD to narrow results" [ref=e2466] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101013595158111%3A66009618031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=66009617031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101013595158111_2&ds=v1%3A2ZqONqJ68YMnIoTlIo%2FxIZjRARcI7od4dl5qo6wV5Z4
+                      - checkbox [ref=e2469]
+                      - text: LCD
+              - group "Operating System" [ref=e2471]:
+                - heading "Operating System" [level=2] [ref=e2472]
+                - list "Operating System" [ref=e2473]:
+                  - listitem [ref=e2474]:
+                    - link "Apply the filter Android 14 to narrow results" [ref=e2476] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003517064111%3A206818075031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=51258619031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003517064111_1&ds=v1%3AyzIYTMruwRuxRgCreM2BeVtndWE%2Ffo%2Feekn6cb3RkWo
+                      - checkbox [ref=e2479]
+                      - text: Android 14
+                  - listitem [ref=e2481]:
+                    - link "Apply the filter Android 12.0 to narrow results" [ref=e2483] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003517064111%3A51258733031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=51258619031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003517064111_2&ds=v1%3AHO52vUtedfcIP%2BDJ6xwHcJc2KnCw4yP5uUIa8sUb2Gc
+                      - checkbox [ref=e2486]
+                      - text: Android 12.0
+                  - listitem [ref=e2488]:
+                    - link "Apply the filter OxygenOS to narrow results" [ref=e2490] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003517064111%3A51258674031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=51258619031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003517064111_3&ds=v1%3AD2zp%2FpJiuFEmQhIbcgz%2Fliby65wB1Fw5MCIkZKL45S8
+                      - checkbox [ref=e2493]
+                      - text: OxygenOS
+              - group "Discount" [ref=e2495]:
+                - heading "Discount" [level=2] [ref=e2496]
+                - list "Discount" [ref=e2497]:
+                  - listitem [ref=e2498]:
+                    - link "10% Off or more" [ref=e2500] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=2665398031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3AMMuN4zeXj7QC6QxUbfMNpIw2hqXD7Gk2WakbJYdzlCM
+                  - listitem [ref=e2501]:
+                    - link "25% Off or more" [ref=e2503] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_pct-off-with-tax%3A2665400031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=2665398031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3AJdc46h7R4BoBsJGAIiWDEUBe7C6aTxA2y2vJFdM7%2Fl8
+                  - listitem [ref=e2504]:
+                    - link "35% Off or more" [ref=e2506] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_pct-off-with-tax%3A2665402031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=2665398031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3Aj%2Fm%2Fi9IvSX086TwooXqFVlIBsscGC7KhD1oU8jX3u%2B0
+                  - listitem [ref=e2507]:
+                    - link "50% Off or more" [ref=e2509] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_pct-off-with-tax%3A2665401031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=2665398031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3AtDnES%2BL5202BdmTve88TvIJ3O%2FrIpDf7KZ4u656tFG0
+                  - listitem [ref=e2510]:
+                    - link "60% Off or more" [ref=e2512] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_pct-off-with-tax%3A27060456031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=2665398031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3ASwczS1kk9cGoZtvDQy3EZwCs10eVo35Pr5S1f8%2BOmfg
+                  - listitem [ref=e2513]:
+                    - link "70% Off or more" [ref=e2515] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_pct-off-with-tax%3A27060457031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=2665398031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3Ax9vjnbZNERat0AGZkEl5LRgnTG8C2yzGpatEn5phlOE
+              - group "SIM Card Slot Count" [ref=e2516]:
+                - heading "SIM Card Slot Count" [level=2] [ref=e2517]
+                - list "SIM Card Slot Count" [ref=e2518]:
+                  - listitem [ref=e2519]:
+                    - link "Apply the filter Single SIM to narrow results" [ref=e2521] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002989427111%3A27179458031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27179439031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002989427111_1&ds=v1%3A%2BYEp67W3HTKcpAiT2EFqiGkG6VLGCECrzfapSSybBZI
+                      - checkbox [ref=e2524]
+                      - text: Single SIM
+                  - listitem [ref=e2526]:
+                    - link "Apply the filter Dual SIM to narrow results" [ref=e2528] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002989427111%3A27179459031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27179439031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002989427111_2&ds=v1%3ATGFPl5Mf3WQJabryZSnxdC1KHkn4OkZVqumNYmaSkZY
+                      - checkbox [ref=e2531]
+                      - text: Dual SIM
+              - group "Display Refresh Rate" [ref=e2533]:
+                - heading "Display Refresh Rate" [level=2] [ref=e2534]
+                - list "Display Refresh Rate" [ref=e2535]:
+                  - listitem [ref=e2536]:
+                    - link "Apply the filter 89 to 104 Hz to narrow results" [ref=e2538] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003533222111%3A56163444031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=56162597031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003533222111_1&ds=v1%3AAVH5kteB%2Fvxx6o2NLyREM7wBYuNZ6ek5llUGpbkcqrE
+                      - checkbox [ref=e2541]
+                      - text: 89 to 104 Hz
+                  - listitem [ref=e2543]:
+                    - link "Apply the filter 105 to 120 Hz to narrow results" [ref=e2545] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003533222111%3A56163447031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=56162597031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003533222111_2&ds=v1%3AmIlP30cWsmPFNI%2FUh2WNGzKGysPJ5Uc0%2F40sagWEPhA
+                      - checkbox [ref=e2548]
+                      - text: 105 to 120 Hz
+              - group "Cell Phone Brands" [ref=e2550]:
+                - heading "Cell Phone Brands" [level=2] [ref=e2551]
+                - list "Cell Phone Brands" [ref=e2552]:
+                  - listitem [ref=e2553]:
+                    - link "Apply the filter Top Brands to narrow results" [ref=e2555] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_format_browse-bin%3A30678580031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=30678573031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3A%2BJDvb9qiBWCQ5r%2FvoNxYoX%2BI6STMszjXsJo2R60eW80
+                      - checkbox [ref=e2558]
+                      - text: Top Brands
+              - group "Connector Type" [ref=e2560]:
+                - heading "Connector Type" [level=2] [ref=e2561]
+                - list "Connector Type" [ref=e2562]:
+                  - listitem [ref=e2563]:
+                    - link "Apply the filter 3.5mm Jack to narrow results" [ref=e2565] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002085485111%3A27403492031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27403487031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002085485111_1&ds=v1%3A4TM0DyspXE9z71ALoGX%2FLPvlqW2zFF1hatscevMZHAw
+                      - checkbox [ref=e2568]
+                      - text: 3.5mm Jack
+                  - listitem [ref=e2570]:
+                    - link "Apply the filter Micro USB to narrow results" [ref=e2572] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002085485111%3A27403488031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27403487031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002085485111_2&ds=v1%3ABgd7R50aTlsULq3i2bfEeF9qy5m0PCp3gtPaoBiqOgw
+                      - checkbox [ref=e2575]
+                      - text: Micro USB
+                  - listitem [ref=e2577]:
+                    - link "Apply the filter USB Type C to narrow results" [ref=e2579] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002085485111%3A27403491031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27403487031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002085485111_3&ds=v1%3AeNlRoGPMzyeHszRI63w1xypQcbnQhuEGg%2BRhx3mypuI
+                      - checkbox [ref=e2582]
+                      - text: USB Type C
+              - group "Pay On Delivery" [ref=e2584]:
+                - heading "Pay On Delivery" [level=2] [ref=e2585]
+                - list "Pay On Delivery" [ref=e2586]:
+                  - listitem [ref=e2587]:
+                    - link "Apply the filter Eligible for Pay On Delivery to narrow results" [ref=e2589] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_is_cod_eligible%3A4931671031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=4931670031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3Ak%2Fj69vMfNc9LCwMvisRLcc5Z1yGNXtgi5NeRXqnDA6M
+                      - checkbox [ref=e2592]
+                      - text: Eligible for Pay On Delivery
+              - group "Video Capture Resolution" [ref=e2594]:
+                - heading "Video Capture Resolution" [level=2] [ref=e2595]
+                - list "Video Capture Resolution" [ref=e2596]:
+                  - listitem [ref=e2597]:
+                    - link "Apply the filter 1080p to narrow results" [ref=e2599] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003305462111%3A28430295031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=28430291031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003305462111_1&ds=v1%3Axj1dJygYpYMQiOJqWsVuDP6T%2BoF1snCYmqE%2BQPRlBiY
+                      - checkbox [ref=e2602]
+                      - text: 1080p
+                  - listitem [ref=e2604]:
+                    - link "Apply the filter 4k to narrow results" [ref=e2606] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003305462111%3A28430294031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=28430291031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003305462111_2&ds=v1%3AKkuvMhonFPNmBLBFW%2FT%2Fp%2FM0HLbh9SvTpfcGLcxUQig
+                      - checkbox [ref=e2609]
+                      - text: 4k
+              - group "Front Camera Resolution" [ref=e2611]:
+                - heading "Front Camera Resolution" [level=2] [ref=e2612]
+                - list "Front Camera Resolution" [ref=e2613]:
+                  - listitem [ref=e2614]:
+                    - link "Apply the filter Up to 6.9 MP to narrow results" [ref=e2616] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003565058111%3A61505203031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=61505195031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003565058111_1&ds=v1%3Ar5C7lGRRoZm2K%2F1q%2Fpmr5lb3%2FtdulDOpPSu9Ur6wz%2Bc
+                      - checkbox [ref=e2619]
+                      - text: Up to 6.9 MP
+                  - listitem [ref=e2621]:
+                    - link "Apply the filter 13.0 MP & above to narrow results" [ref=e2623] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003565058111%3A61505197031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=61505195031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003565058111_2&ds=v1%3A0WRUch0%2FJpicXx7i6yrxbqcLMTgiqceq4f5rry4HHNU
+                      - checkbox [ref=e2626]
+                      - text: 13.0 MP & above
+              - group "Connectivity" [ref=e2628]:
+                - heading "Connectivity" [level=2] [ref=e2629]
+                - list "Connectivity" [ref=e2630]:
+                  - listitem [ref=e2631]:
+                    - link "Apply the filter Bluetooth to narrow results" [ref=e2633] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002112230111%3A27363277031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27363274031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002112230111_1&ds=v1%3AzrPmfQnEpL9EEy1WrbzrcfqA955L0mREZQU5no3XZtw
+                      - checkbox [ref=e2636]
+                      - text: Bluetooth
+                  - listitem [ref=e2638]:
+                    - link "Apply the filter NFC to narrow results" [ref=e2640] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002112230111%3A27363279031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27363274031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002112230111_2&ds=v1%3AiY9x%2FtvnabvNbjqr60BeFQrZJCzchwCCyOVQ2Rbgkr8
+                      - checkbox [ref=e2643]
+                      - text: NFC
+                  - listitem [ref=e2645]:
+                    - link "Apply the filter USB to narrow results" [ref=e2647] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002112230111%3A27363276031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27363274031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002112230111_3&ds=v1%3A5dKkjO0lAmFL5kW1EHaiqzyWsowM0C84XZBbv8G8NTo
+                      - checkbox [ref=e2650]
+                      - text: USB
+                  - listitem [ref=e2652]:
+                    - link "Apply the filter Wi-Fi to narrow results" [ref=e2654] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002112230111%3A27363278031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27363274031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002112230111_4&ds=v1%3ATFM4u40CnszsNNDp%2FUC3%2Bduh46EwzsoDXEglx2OXRkU
+                      - checkbox [ref=e2657]
+                      - text: Wi-Fi
+              - group "Features" [ref=e2659]:
+                - heading "Features" [level=2] [ref=e2660]
+                - list "Features" [ref=e2661]:
+                  - listitem [ref=e2662]:
+                    - link "Apply the filter Primary Camera to narrow results" [ref=e2664] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1004151224091%3A1484942031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=1484941031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1004151224091_1&ds=v1%3AQxcmxvI68C3R2vakSkjzwgERAQEqi4WpICca8Bh41Eg
+                      - checkbox [ref=e2667]
+                      - text: Primary Camera
+                  - listitem [ref=e2669]:
+                    - link "Apply the filter Dual SIM to narrow results" [ref=e2671] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1004151224091%3A1897963031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=1484941031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1004151224091_2&ds=v1%3AFrSm%2BMPqfU9dF4wcPVknMFUTIHQ%2F7MQZfHMHLoS1jtU
+                      - checkbox [ref=e2674]
+                      - text: Dual SIM
+              - group "Rear Camera Photo Sensor Resolution" [ref=e2676]:
+                - heading "Rear Camera Photo Sensor Resolution" [level=2] [ref=e2677]
+                - list "Rear Camera Photo Sensor Resolution" [ref=e2678]:
+                  - listitem [ref=e2679]:
+                    - link "Apply the filter Up to 9.9 MP to narrow results" [ref=e2681] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003477899111%3A42253779031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=42253749031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003477899111_1&ds=v1%3AqyQTHzeE8SATDtZM1alJfxEewOmsfzMVlqCAyzHflIo
+                      - checkbox [ref=e2684]
+                      - text: Up to 9.9 MP
+                  - listitem [ref=e2686]:
+                    - link "Apply the filter 16 MP & Above to narrow results" [ref=e2688] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003477899111%3A42253778031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=42253749031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003477899111_2&ds=v1%3AjPNA5Iw64cnjAw0ZqjRs2TAnQC61yul7E47nB04CCng
+                      - checkbox [ref=e2691]
+                      - text: 16 MP & Above
+              - group "Battery Life" [ref=e2693]:
+                - heading "Battery Life" [level=2] [ref=e2694]
+                - list "Battery Life" [ref=e2695]:
+                  - listitem [ref=e2696]:
+                    - link "Apply the filter 7 to 12.9 h to narrow results" [ref=e2698] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003486052111%3A42062131031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=42062008031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003486052111_1&ds=v1%3AFXI944b4pwnDZP70IEsOR%2BPChy%2BYmdkdqjc7v4ghEsE
+                      - checkbox [ref=e2701]
+                      - text: 7 to 12.9 h
+                  - listitem [ref=e2703]:
+                    - link "Apply the filter 13 to 18.9 h to narrow results" [ref=e2705] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003486052111%3A42062132031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=42062008031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003486052111_2&ds=v1%3A2HgX45gC%2F%2BxWwC5SA5cy0vgYEns38uBEHVkmrxNIREY
+                      - checkbox [ref=e2708]
+                      - text: 13 to 18.9 h
+                  - listitem [ref=e2710]:
+                    - link "Apply the filter 19 h & above to narrow results" [ref=e2712] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003486052111%3A42062130031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=42062008031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003486052111_3&ds=v1%3AuT0pjqd1sNwnEPO%2BqTr5bQFVLA1zXyA91Njz%2BhBAD0w
+                      - checkbox [ref=e2715]
+                      - text: 19 h & above
+              - group "Display Resolution" [ref=e2717]:
+                - heading "Display Resolution" [level=2] [ref=e2718]
+                - list "Display Resolution" [ref=e2719]:
+                  - listitem [ref=e2720]:
+                    - link "Apply the filter 1080 x 2340 to narrow results" [ref=e2722] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002090229111%3A27345227031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27345181031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002090229111_1&ds=v1%3AeOycek5UbLIORV6NNbf3tRaHflIRSQ5BKnXKzQr%2FCL0
+                      - checkbox [ref=e2725]
+                      - text: 1080 x 2340
+                  - listitem [ref=e2727]:
+                    - link "Apply the filter 1920 x 1080 to narrow results" [ref=e2729] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002090229111%3A27345207031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27345181031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002090229111_2&ds=v1%3AOm7%2BdrMtdKJcj03tjLDbklKRE2EABTNlCb3C0K%2F6jcE
+                      - checkbox [ref=e2732]
+                      - text: 1920 x 1080
+                  - listitem [ref=e2734]:
+                    - link "Apply the filter 2400 x 1080 to narrow results" [ref=e2736] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002090229111%3A27345223031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27345181031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002090229111_3&ds=v1%3AYnNXgOUngUckGgKW%2Bz4HUqgp32w7dvu5ZMgykH9JRro
+                      - checkbox [ref=e2739]
+                      - text: 2400 x 1080
+                  - listitem [ref=e2741]:
+                    - link "Apply the filter 720 x 1600 to narrow results" [ref=e2743] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002090229111%3A56611001031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27345181031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002090229111_4&ds=v1%3AX%2BAlicVyvHCrKOG2vPLULHVRBcywQ8ZMgTNuKkBP5jU
+                      - checkbox [ref=e2746]
+                      - text: 720 x 1600
+              - group "Colour" [ref=e2748]:
+                - heading "Colour" [level=2] [ref=e2749]
+                - list "Colour" [ref=e2750]:
+                  - listitem [ref=e2751]:
+                    - generic:
+                      - link "Apply the filter Black to narrow results":
+                        - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_size_two_browse-vebin%3A15563995031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=15563994031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_size_two_browse-vebin_1&ds=v1%3AskcnCW8sLVJHuEfGCf17z0AjSwNGeUGD0tsOc4FkQgw
+                  - listitem [ref=e2753]:
+                    - generic:
+                      - link "Apply the filter Transparent to narrow results":
+                        - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_size_two_browse-vebin%3A15564012031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=15563994031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_size_two_browse-vebin_2&ds=v1%3A4%2F2lDxfmK5Tbd3YACmTJ2WxiBYc652hqeKKkgFUgTR4
+                  - listitem [ref=e2755]:
+                    - generic:
+                      - link "Apply the filter Multicoloured to narrow results":
+                        - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_size_two_browse-vebin%3A15564011031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=15563994031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_size_two_browse-vebin_3&ds=v1%3AxJo8OUUu6NWRaLKP6YR6eH0Q9yciAKkg17ACU%2BpDoDA
+                  - listitem [ref=e2757]:
+                    - generic:
+                      - link "Apply the filter White to narrow results":
+                        - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_size_two_browse-vebin%3A15563997031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=15563994031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_size_two_browse-vebin_4&ds=v1%3ALycw9Zi52PTxtRmqXMRpOITnDz8ahmtX4vyngLuPxQI
+                  - listitem [ref=e2759]:
+                    - generic:
+                      - link "Apply the filter Red to narrow results":
+                        - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_size_two_browse-vebin%3A15564000031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=15563994031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_size_two_browse-vebin_5&ds=v1%3AHFyXiGb%2FC5M8asSJWoogtRtEu7%2BS%2FbuPmsfkwXCzgr0
+                  - listitem [ref=e2761]:
+                    - generic:
+                      - link "Apply the filter Green to narrow results":
+                        - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_size_two_browse-vebin%3A15564005031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=15563994031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_size_two_browse-vebin_6&ds=v1%3AtQJg18aaupG3geKTfeksqaFNZtc0v%2FUjH0WPv5gh3X4
+                  - listitem [ref=e2763]:
+                    - generic:
+                      - link "Apply the filter Blue to narrow results":
+                        - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_size_two_browse-vebin%3A15564007031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=15563994031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_size_two_browse-vebin_7&ds=v1%3As6D8c7zytY2L%2Bq7TkY0fO%2B7OoK1cGFw%2BUqyKPzzG5WI
+                  - listitem [ref=e2765]:
+                    - generic:
+                      - link "Apply the filter Purple to narrow results":
+                        - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_size_two_browse-vebin%3A15564008031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=15563994031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_size_two_browse-vebin_8&ds=v1%3A85PxjzKBhFN70uOLLLIqm%2BmFPnNK3Sl8LDOGYjllACw
+              - group "Weight" [ref=e2767]:
+                - heading "Weight" [level=2] [ref=e2768]
+                - list "Weight" [ref=e2769]:
+                  - listitem [ref=e2770]:
+                    - link "Apply the filter Up to 141.9 g to narrow results" [ref=e2772] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003491669111%3A42659590031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=42659587031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003491669111_1&ds=v1%3AAUfMnBr7Jx%2B5WfyLSDD%2FdNWormBSC%2BMNJEwfXAuYG7s
+                      - checkbox [ref=e2775]
+                      - text: Up to 141.9 g
+                  - listitem [ref=e2777]:
+                    - link "Apply the filter 142 to 197.9 g to narrow results" [ref=e2779] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003491669111%3A42659588031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=42659587031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003491669111_2&ds=v1%3ALNSgW40vl%2BQmwus7pOXI8991Lg%2FkIDrp3tUhINgTkOI
+                      - checkbox [ref=e2782]
+                      - text: 142 to 197.9 g
+                  - listitem [ref=e2784]:
+                    - link "Apply the filter 198 to 254.9 g to narrow results" [ref=e2786] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1003491669111%3A42659589031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=42659587031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1003491669111_3&ds=v1%3Am43LZ4fXvANcU4%2Fw3ZS0nxGJh%2BkSVf48LkmzgVLyWgk
+                      - checkbox [ref=e2789]
+                      - text: 198 to 254.9 g
+              - group "Included Components" [ref=e2791]:
+                - heading "Included Components" [level=2] [ref=e2792]
+                - list "Included Components" [ref=e2793]:
+                  - listitem [ref=e2794]:
+                    - link "Apply the filter SIM Tray Ejector to narrow results" [ref=e2796] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101013594324111%3A66008617031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=66008593031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101013594324111_1&ds=v1%3ApzBHDeXzAXCY%2F36leEBohGiuj%2FW69Kxp7u1zimz8S0Q
+                      - checkbox [ref=e2799]
+                      - text: SIM Tray Ejector
+                  - listitem [ref=e2801]:
+                    - link "Apply the filter Screen Protector to narrow results" [ref=e2803] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101013594324111%3A66008622031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=66008593031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101013594324111_2&ds=v1%3AMiw%2BiVURT%2FXc1TDUwImzsJGGjbUORLAPeoEveA0wsUo
+                      - checkbox [ref=e2806]
+                      - text: Screen Protector
+                  - listitem [ref=e2808]:
+                    - link "Apply the filter Quick Start Guide to narrow results" [ref=e2810] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101013594324111%3A213480632031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=66008593031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101013594324111_3&ds=v1%3A%2FwPDVEsd1o3HQtwgqoVzEb6G3W1pE6WYBfN094aCo%2F4
+                      - checkbox [ref=e2813]
+                      - text: Quick Start Guide
+                  - listitem [ref=e2815]:
+                    - link "Apply the filter Phone Case to narrow results" [ref=e2817] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101013594324111%3A66008623031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=66008593031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101013594324111_4&ds=v1%3AM%2Fmactd4pGiyAjDAEcfs%2FReWLoLHEo7skgFhMUueQVk
+                      - checkbox [ref=e2820]
+                      - text: Phone Case
+                  - listitem [ref=e2822]:
+                    - link "Apply the filter Power Adapter to narrow results" [ref=e2824] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101013594324111%3A66008624031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=66008593031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101013594324111_5&ds=v1%3AYAFqn2NHmsxy37POxhrxL3v2ObhD%2Fliznc2JVJ21NQ4
+                      - checkbox [ref=e2827]
+                      - text: Power Adapter
+                  - listitem [ref=e2829]:
+                    - link "Apply the filter USB Cable to narrow results" [ref=e2831] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101013594324111%3A66008618031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=66008593031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101013594324111_6&ds=v1%3ApVxRsgyL%2FLkSOvAu0uThybJRAq8CcO6gz4aYuwL9aBw
+                      - checkbox [ref=e2834]
+                      - text: USB Cable
+              - group "Availability" [ref=e2836]:
+                - heading "Availability" [level=2] [ref=e2837]
+                - list "Availability" [ref=e2838]:
+                  - listitem [ref=e2839]:
+                    - link "Apply the filter Include Out of Stock to narrow results" [ref=e2841] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_availability%3A1318485031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=1318483031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_availability_2&ds=v1%3AR2I4o08H5agOSLKtIfgFlG7gi8YYRlmOlZYuR3gaTgY
+                      - checkbox [ref=e2844]
+                      - text: Include Out of Stock
+              - group "New Arrivals" [ref=e2846]:
+                - heading "New Arrivals" [level=2] [ref=e2847]
+                - list "New Arrivals" [ref=e2848]:
+                  - listitem [ref=e2849]:
+                    - link "Last 30 days" [ref=e2851] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_date_first_available_absolute%3A1318487031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=1318486031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3AoPXV5VMznBt%2Fwr0g%2BgFc6c6IpAs6qGpAVh1vNictO2Q
+                  - listitem [ref=e2852]:
+                    - link "Last 90 days" [ref=e2854] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_date_first_available_absolute%3A1318488031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=1318486031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3AwIjHt%2F5fk8CO3zAve9RNgs%2FfxwRdwPCqbBQdHGXDfnw
+              - group "Camera Modes" [ref=e2855]:
+                - heading "Camera Modes" [level=2] [ref=e2856]
+                - list "Camera Modes" [ref=e2857]:
+                  - listitem [ref=e2858]:
+                    - link "Apply the filter High Dynamic Range to narrow results" [ref=e2860] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002252610111%3A27316767031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27316761031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002252610111_1&ds=v1%3ANZC%2BO0g9HxwbjUhh10jUbPH4%2BxVE178tIj90C71EMgI
+                      - checkbox [ref=e2863]
+                      - text: High Dynamic Range
+                  - listitem [ref=e2865]:
+                    - link "Apply the filter Aperture Priority to narrow results" [ref=e2867] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002252610111%3A27316763031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27316761031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002252610111_2&ds=v1%3ALzLANLYfJN2wh6d8WFdPx0eAinm0x%2FVxMI6gQ1U7hQA
+                      - checkbox [ref=e2870]
+                      - text: Aperture Priority
+                  - listitem [ref=e2872]:
+                    - link "Apply the filter Panorama to narrow results" [ref=e2874] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002252610111%3A27316770031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27316761031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002252610111_3&ds=v1%3AkbZYdU%2BpHR7wYcDZmKsm73uMnTffWgdwAnv5hzIXCiA
+                      - checkbox [ref=e2877]
+                      - text: Panorama
+                  - listitem [ref=e2879]:
+                    - link "Apply the filter Scene to narrow results" [ref=e2881] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002252610111%3A27316775031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27316761031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002252610111_4&ds=v1%3ApFgN3xtCT5666R1bOlJeyEHdRsWt%2F84aeeyWsFNlZXM
+                      - checkbox [ref=e2884]
+                      - text: Scene
+              - group "Supported Satellite Navigation System" [ref=e2886]:
+                - heading "Supported Satellite Navigation System" [level=2] [ref=e2887]
+                - list "Supported Satellite Navigation System" [ref=e2888]:
+                  - listitem [ref=e2889]:
+                    - link "Apply the filter GPS to narrow results" [ref=e2891] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015498432111%3A100424905031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100424895031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015498432111_1&ds=v1%3AOhLYhOMa136ycsjcsi4BUmjNbHgSpifdT3FsrnZ%2FzCs
+                      - checkbox [ref=e2894]
+                      - text: GPS
+                  - listitem [ref=e2896]:
+                    - link "Apply the filter BeiDou to narrow results" [ref=e2898] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015498432111%3A100424900031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100424895031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015498432111_2&ds=v1%3A3URAcxlZFJfSNB8et50Bq3BmTc2BKT%2FpSLSeyl8PuW0
+                      - checkbox [ref=e2901]
+                      - text: BeiDou
+                  - listitem [ref=e2903]:
+                    - link "Apply the filter GLONASS to narrow results" [ref=e2905] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015498432111%3A100424903031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100424895031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015498432111_3&ds=v1%3AK9uKYJwNQip%2Bvjp0WUesgWETMxffie3Zb1SLZAjSdog
+                      - checkbox [ref=e2908]
+                      - text: GLONASS
+                  - listitem [ref=e2910]:
+                    - link "Apply the filter Galileo to narrow results" [ref=e2912] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015498432111%3A100424904031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100424895031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015498432111_4&ds=v1%3ALbzTG9CwkaAcvNJ%2BhvLX%2F%2BjN2eTY%2FcFtMNTZn42lmz0
+                      - checkbox [ref=e2915]
+                      - text: Galileo
+              - group "Wireless Network Technology" [ref=e2917]:
+                - heading "Wireless Network Technology" [level=2] [ref=e2918]
+                - list "Wireless Network Technology" [ref=e2919]:
+                  - listitem [ref=e2920]:
+                    - link "Apply the filter GSM to narrow results" [ref=e2922] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015498571111%3A100436155031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100436133031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015498571111_1&ds=v1%3AdMl6HRaBhDv0cvKPo5jsU5fsYufwyZ1c9QEJvMrAi1w
+                      - checkbox [ref=e2925]
+                      - text: GSM
+                  - listitem [ref=e2927]:
+                    - link "Apply the filter LTE to narrow results" [ref=e2929] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015498571111%3A100436153031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100436133031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015498571111_2&ds=v1%3A3VuS4QEzJWJgT5LfUXsjTNGzk0bHs15uyCT8QX7kbE8
+                      - checkbox [ref=e2932]
+                      - text: LTE
+                  - listitem [ref=e2934]:
+                    - link "Apply the filter Wi-Fi to narrow results" [ref=e2936] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015498571111%3A100436151031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100436133031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015498571111_3&ds=v1%3AIsXiGp2Pvi%2FSySSrxGrR242LptjbWvjJqFW%2Br6wgeWs
+                      - checkbox [ref=e2939]
+                      - text: Wi-Fi
+              - group "Input" [ref=e2941]:
+                - heading "Input" [level=2] [ref=e2942]
+                - list "Input" [ref=e2943]:
+                  - listitem [ref=e2944]:
+                    - link "Apply the filter Touchscreen to narrow results" [ref=e2946] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002097072111%3A27362061031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27362059031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002097072111_1&ds=v1%3Ag%2FI6XFbc2KiVA1ucRzegAwAe2%2F1yIrLpAgqX7T1MxPI
+                      - checkbox [ref=e2949]
+                      - text: Touchscreen
+                  - listitem [ref=e2951]:
+                    - link "Apply the filter Buttons to narrow results" [ref=e2953] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002097072111%3A27362063031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27362059031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002097072111_2&ds=v1%3AS6kKT7JF4ulguoVZI%2BfIxrGihvFM6iEHO6gs9X0Owz4
+                      - checkbox [ref=e2956]
+                      - text: Buttons
+              - group "Flash" [ref=e2958]:
+                - heading "Flash" [level=2] [ref=e2959]
+                - list "Flash" [ref=e2960]:
+                  - listitem [ref=e2961]:
+                    - link "Apply the filter LED to narrow results" [ref=e2963] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015500208111%3A100427321031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100427311031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015500208111_1&ds=v1%3A%2FLp3UYejX4iZe71iJOEsa%2BJdOjWX6jOUPYf6Q2YpWyM
+                      - checkbox [ref=e2966]
+                      - text: LED
+              - group "Battery Type" [ref=e2968]:
+                - heading "Battery Type" [level=2] [ref=e2969]
+                - list "Battery Type" [ref=e2970]:
+                  - listitem [ref=e2971]:
+                    - link "Apply the filter Lithium-Ion to narrow results" [ref=e2973] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015500034111%3A100427319031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100427310031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015500034111_1&ds=v1%3ANZuBe%2BMSNUk%2Fq%2FeGU99L%2B%2FqBJN7q4s6ohuTDktt9h6k
+                      - checkbox [ref=e2976]
+                      - text: Lithium-Ion
+              - group "Sim Card Size" [ref=e2978]:
+                - heading "Sim Card Size" [level=2] [ref=e2979]
+                - list "Sim Card Size" [ref=e2980]:
+                  - listitem [ref=e2981]:
+                    - link "Apply the filter Micro to narrow results" [ref=e2983] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002989370111%3A27179454031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27179438031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002989370111_1&ds=v1%3AqUYgO3HhPJzwx0Lmhfi%2F9kdmhsYp%2BT%2BDhX8aYL8u0VA
+                      - checkbox [ref=e2986]
+                      - text: Micro
+                  - listitem [ref=e2988]:
+                    - link "Apply the filter Nano to narrow results" [ref=e2990] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002989370111%3A27179455031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27179438031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002989370111_2&ds=v1%3AZRzmPRfqeWHkGntPZNuxMyJfginC2yvNB0IZjg2oi1o
+                      - checkbox [ref=e2993]
+                      - text: Nano
+                  - listitem [ref=e2995]:
+                    - link "Apply the filter Standard to narrow results" [ref=e2997] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-1002989370111%3A27179457031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=27179438031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-1002989370111_3&ds=v1%3AV7ViNpWza1ZT2wODPDAb3MRpzzs6cSND1cXADHAkM0I
+                      - checkbox [ref=e3000]
+                      - text: Standard
+              - group "Headphones Jack" [ref=e3002]:
+                - heading "Headphones Jack" [level=2] [ref=e3003]
+                - list "Headphones Jack" [ref=e3004]:
+                  - listitem [ref=e3005]:
+                    - link "Apply the filter 3.5 mm to narrow results" [ref=e3007] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015501406111%3A100427563031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=100427546031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015501406111_1&ds=v1%3AbWPb5tG0AdWD5zkipdgoOrjUQNGX%2BbKuxtYXpg86Fq8
+                      - checkbox [ref=e3010]
+                      - text: 3.5 mm
+              - group "Aspect Ratio" [ref=e3012]:
+                - heading "Aspect Ratio" [level=2] [ref=e3013]
+                - list "Aspect Ratio" [ref=e3014]:
+                  - listitem [ref=e3015]:
+                    - link "Apply the filter 16:9 to narrow results" [ref=e3017] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015688486111%3A204879948031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=204879945031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015688486111_1&ds=v1%3AaHDjhFk%2BFkOpwdU%2BdiHJSToX%2FFYuG4fPqGrmALsHkfs
+                      - checkbox [ref=e3020]
+                      - text: 16:9
+              - group "GPS Navigation" [ref=e3022]:
+                - heading "GPS Navigation" [level=2] [ref=e3023]
+                - list "GPS Navigation" [ref=e3024]:
+                  - listitem [ref=e3025]:
+                    - link "Apply the filter False to narrow results" [ref=e3027] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015364874111%3A96329644031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=96329629031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015364874111_1&ds=v1%3ASnvQpEopnh7VU38%2F5xeaa7qXGhwD8Cma6tS3hbLev%2FY
+                      - checkbox [ref=e3030]
+                      - text: "False"
+                  - listitem [ref=e3032]:
+                    - link "Apply the filter True to narrow results" [ref=e3034] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_n_g-101015364874111%3A96329643031&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=96329629031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_n_g-101015364874111_2&ds=v1%3Arfts024VRkc5IOYuulVUsAlJ18%2FWBI1BGzUXiNeeDY0
+                      - checkbox [ref=e3037]
+                      - text: "True"
+              - group "Seller" [ref=e3039]:
+                - heading "Seller" [level=2] [ref=e3040]
+                - list "Seller" [ref=e3041]:
+                  - listitem [ref=e3042]:
+                    - link "Apply the filter RL Hub to narrow results" [ref=e3044] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_6%3AA2MGYHVYWVGINB&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=1318474031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_6_1&ds=v1%3AJRQpCFH7QFFql14yynOzFMVe2HuXpPpDpjVy3ubrVuI
+                      - checkbox [ref=e3047]
+                      - text: RL Hub
+                  - listitem [ref=e3049]:
+                    - link "Apply the filter AIMS International to narrow results" [ref=e3051] [cursor=pointer]:
+                      - /url: /s?k=samsung+mobile+phone+under+20000&rh=p_6%3AA2JEP7O2CQD4LK&dc&crid=2W9DBRZ4TKZZS&qid=1765195228&rnid=1318474031&sprefix=sumsung+mobile%2Caps%2C224&ref=sr_nr_p_6_2&ds=v1%3Al44rXhxdnA76LZum1YsOSKzemqZHvqBwtQ%2FdUXDqGDM
+                      - checkbox [ref=e3054]
+                      - text: AIMS International
+                  - listitem [ref=e3056]:
+                    - button "See more, Seller" [ref=e3059] [cursor=pointer]: See more
+            - generic [ref=e3064]:
+              - iframe [ref=e3065]:
+                - generic [ref=f2e4]:
+                  - generic [ref=f2e5]:
+                    - link "Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display" [ref=f2e6] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RBjuZQnM-f0U6SWpcbGCkW0AAAGa_dWkygoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICC0mmGe/clv1_CEuOPUxokZA9iHrVX9xw03vicm92dpFlhs4MyHmBr9F-4X82ukneOv018HFItlC9gqEp25IbmnkC2QrDHypZWkxIPDPMUPDPC2MEYlFqenibFr8EC1UE89J9PA5kwCVn1hgbr4CVzXSg992lWH2BsJqfqLz_LYqBwezpOGJTSGvLz-TP0A9_AwL6as6saPdxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_hiQZoEva0WZCnNoW_8h0v_0jBOcEN8NT4xBA/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyMjcxMzkyODQ3MDI4MDkzOjE3NjUxOTUyMjg6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDU3MzMzNTI2OTMzMjo6Ojo&url=%2Fdp%2FB0CWPC2W5V%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26aref%3DsKekvHszPd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=sKekvHszPd&sp_cr=ZAZ
+                    - img "Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display" [ref=f2e10]
+                    - generic [ref=f2e12]:
+                      - generic [ref=f2e13]: Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM...
+                      - link "4,363" [ref=f2e15] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/RBjuZQnM-f0U6SWpcbGCkW0AAAGa_dWkygoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICC0mmGe/clv1_CEuOPUxokZA9iHrVX9xw03vicm92dpFlhs4MyHmBr9F-4X82ukneOv018HFItlC9gqEp25IbmnkC2QrDHypZWkxIPDPMUPDPC2MEYlFqenibFr8EC1UE89J9PA5kwCVn1hgbr4CVzXSg992lWH2BsJqfqLz_LYqBwezpOGJTSGvLz-TP0A9_AwL6as6saPdxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_hiQZoEva0WZCnNoW_8h0v_0jBOcEN8NT4xBA/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyMjcxMzkyODQ3MDI4MDkzOjE3NjUxOTUyMjg6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDU3MzMzNTI2OTMzMjo6Ojo&url=%2Fdp%2FB0CWPC2W5V%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26aref%3DsKekvHszPd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=sKekvHszPd&sp_cr=ZAZ#customerReviews
+                        - text: 4,363
+                      - generic [ref=f2e17]: ₹24,999.00
+                    - link "Shop now" [ref=f2e22] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RBjuZQnM-f0U6SWpcbGCkW0AAAGa_dWkygoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICC0mmGe/clv1_CEuOPUxokZA9iHrVX9xw03vicm92dpFlhs4MyHmBr9F-4X82ukneOv018HFItlC9gqEp25IbmnkC2QrDHypZWkxIPDPMUPDPC2MEYlFqenibFr8EC1UE89J9PA5kwCVn1hgbr4CVzXSg992lWH2BsJqfqLz_LYqBwezpOGJTSGvLz-TP0A9_AwL6as6saPdxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_hiQZoEva0WZCnNoW_8h0v_0jBOcEN8NT4xBA/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyMjcxMzkyODQ3MDI4MDkzOjE3NjUxOTUyMjg6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDU3MzMzNTI2OTMzMjo6Ojo&url=%2Fdp%2FB0CWPC2W5V%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26aref%3DsKekvHszPd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=sKekvHszPd&sp_cr=ZAZ
+                  - separator [ref=f2e24]
+                  - generic [ref=f2e25]:
+                    - link "Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=f2e26] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RBjuZQnM-f0U6SWpcbGCkW0AAAGa_dWkygoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICC0mmGe/clv1_CEuOPUxokZA9iHrVX9xw03vicm92dpFlhs4MyHmBr9F-4X82ukneOv018HFItlC9gqEp25IbmnkC2QrDHypZWkxIPDPMUPDPC2MEYlFqenibFr8EC1UE89J9PA5kwCVn1hgbr4CVzXSg992lWH2BsJqfqLz_LYqBwezpOGJTSGvLz-TP0A9_AwL6as6saPdxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_hiQZoEva0WZCnNoW_8h0v_0jBOcEN8NT4xBA/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyMjcxMzkyODQ3MDI4MDkzOjE3NjUxOTUyMjg6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDYyMjUyMjQwOTEzMjo6Ojo&url=%2Fdp%2FB0FDB9ZCTD%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26aref%3DCh6F5CEg2T%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=Ch6F5CEg2T&sp_cr=ZAZ
+                    - img "Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=f2e30]
+                    - generic [ref=f2e32]:
+                      - generic [ref=f2e33]: Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, ...
+                      - link "3,218" [ref=f2e35] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/RBjuZQnM-f0U6SWpcbGCkW0AAAGa_dWkygoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICC0mmGe/clv1_CEuOPUxokZA9iHrVX9xw03vicm92dpFlhs4MyHmBr9F-4X82ukneOv018HFItlC9gqEp25IbmnkC2QrDHypZWkxIPDPMUPDPC2MEYlFqenibFr8EC1UE89J9PA5kwCVn1hgbr4CVzXSg992lWH2BsJqfqLz_LYqBwezpOGJTSGvLz-TP0A9_AwL6as6saPdxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_hiQZoEva0WZCnNoW_8h0v_0jBOcEN8NT4xBA/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyMjcxMzkyODQ3MDI4MDkzOjE3NjUxOTUyMjg6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDYyMjUyMjQwOTEzMjo6Ojo&url=%2Fdp%2FB0FDB9ZCTD%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26aref%3DCh6F5CEg2T%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=Ch6F5CEg2T&sp_cr=ZAZ#customerReviews
+                        - text: 3,218
+                      - generic [ref=f2e37]: ₹16,499.00
+                    - link "Shop now" [ref=f2e42] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RBjuZQnM-f0U6SWpcbGCkW0AAAGa_dWkygoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICC0mmGe/clv1_CEuOPUxokZA9iHrVX9xw03vicm92dpFlhs4MyHmBr9F-4X82ukneOv018HFItlC9gqEp25IbmnkC2QrDHypZWkxIPDPMUPDPC2MEYlFqenibFr8EC1UE89J9PA5kwCVn1hgbr4CVzXSg992lWH2BsJqfqLz_LYqBwezpOGJTSGvLz-TP0A9_AwL6as6saPdxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_hiQZoEva0WZCnNoW_8h0v_0jBOcEN8NT4xBA/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyMjcxMzkyODQ3MDI4MDkzOjE3NjUxOTUyMjg6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDYyMjUyMjQwOTEzMjo6Ojo&url=%2Fdp%2FB0FDB9ZCTD%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26aref%3DCh6F5CEg2T%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=Ch6F5CEg2T&sp_cr=ZAZ
+              - button "Leave feedback on Sponsored advertisement" [ref=e3067] [cursor=pointer]:
+                - generic [ref=e3068]: Sponsored
+            - generic [ref=e3073]:
+              - iframe [ref=e3074]:
+                - generic [ref=f3e3]:
+                  - generic [ref=f3e4]: Sponsored Ad. Product image. FIRST MART Military Grade Gorilla Tempered Glass Compatible For Samsung Galaxy M35, Galaxy A55 and Samsung A35 (6.6 Inches) With Easy Installation Kit | Edge-To-Edge Protector Coverage | Black, Pack of 2 298 Shop now
+                  - generic [ref=f3e5]:
+                    - generic [ref=f3e7]:
+                      - img [ref=f3e9]
+                      - img [ref=f3e13]
+                    - link "Sponsored Ad. Product image. FIRST MART Military Grade Gorilla Tempered Glass Compatible For Samsung Galaxy M35, Galaxy A55 and Samsung A35 (6.6 Inches) With Easy Installation Kit | Edge-To-Edge Protector Coverage | Black, Pack of 2 298 Shop now" [ref=f3e18] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RKRozzt0H5djwARctOgxF-cAAAGa_dWkywoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICCvN4or/clv1_CEuOPUxokZA9iHrVX9xw03vicm92dpFlhs4MyHmBr9F-4X82ukneOv018HFItlC9gqEp25IbmnkC2c7PA3tmKEpbEHqoGM6pK2gnSFApFXeMLNtjxaMd6JJGP9yOMfm6WN3Lfwzxr9YWFk9hg0v2YAFBKg8QBt9hBRY9HqMnUhKFyLqDhUk3Q0G-Kp7vPuogBnoOdtqahJ1BBWh2KcNaYfAXkcOsktIiVBKEZpAkjwMt7q9FwOmESBUKnUiigUVjPGfAC8yX5UA_jkcRbvtYKkiJf0afsFGWF-bg-ITNUa94PBm5xq2IwzmOexfDI4iswv4d0u5Ydu_EzIfYM6TtVvcu27AnRwIprfUjhOhbFqpszlIhXxet9Vjr2p0NXh-sSRZxtQORkEMwnwXVUoGKdURkX6vkuM5DeO4dHkFU5lFKCL8KpjdHQGNt4bEnd24QHqGtOv3nqeLkTSArT2u1vKEaeEeMxF7sfjM3d9AiqYy3FTBj8M2g1jf7NA8bE62qpfhTqhkXBbEImAWHkVXJ0Q_YTmFnbQ8rBQSkVibUBbTxdxq-HzZ1-z8nUwiqb2rJa8YOv_FmYgu1tu1UpNsJAhbkPSBPyCl47eYQuYOUl2Zb5oWszPICSW-m9z_Zd_KFTFgRTMlufAdDrs9yJpZNsjEipYilZz9cX2YMntQs_sYdLBUmXiGimEwUvwmFRfVV9TEZ5X0wm-Rn8eo-MGyKSWICpKyCAsXs_vyQKlZVMCbDvBf-H_l6zRdGu-kuaO_Lx4ByAzHCsHHP3gXqIEPMe3Jv_xvQUTAJ6vt7XKILSxqsolgNJ-BqgSc466iOX13GdPenbFdY_g-Lg-90C-9XjZj7i1s0qP-qE-zYwMP4omKo6HTU12MJ-wDhsHCUumjfsOEii5ssuTjeL-Meb78ZM7T34fe28x1UaT9tThqS8RnssmhSVGZ9emhiZR-7zVurrymkUfTU9LO39by9xAT-UKBoC_uNYOP85T22cBFxY9g5H01jV2V1ar7IwQibKEJNG36GqpxfxRcQdacyqOeWwjBGoRFIXrCtnVVw_qxP7C8EZ22Jb4qtazHZMp1wINB5MH-cWbPzRSFnblkh1CoXUcAkNTClhoRaMJFTRF0weOzJTS_4X6BnuhxYAbmxva-y-sUfTuD_hj5BHu1WrEAAaVVXEMLNFmHQCJcCq8j_qYva4hCl0i6sqa4fiRouctdoDn6qMVO5gCjMag8ynVDHDtCDruR3gJYN1weT2IFQKi3ZP0s-eUW5wFSXySowIqsiFsLr_q_AHFLJYLJMfIUcgGgF18t_19d6v2DJ_wwr2zp_NM4wnthIkc3Kbug/http://www.amazon.in/dp/B0D987YJ9G/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=NynqzauE9O
+                  - img "Product image" [ref=f3e23]
+              - button "Leave feedback on Sponsored advertisement" [ref=e3076] [cursor=pointer]:
+                - generic [ref=e3077]: Sponsored
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e3079]:
+    - button "Back to top" [ref=e3080]:
+      - generic [ref=e3082]: Back to top
+    - generic [ref=e3083]:
+      - generic [ref=e3084]:
+        - heading "Get to Know Us" [level=6] [ref=e3085]
+        - list [ref=e3086]:
+          - listitem [ref=e3087]:
+            - link "About Amazon" [ref=e3088] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e3089]:
+            - link "Careers" [ref=e3090] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e3091]:
+            - link "Press Releases" [ref=e3092] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e3093]:
+            - link "Amazon Science" [ref=e3094] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e3096]:
+        - heading "Connect with Us" [level=6] [ref=e3097]
+        - list [ref=e3098]:
+          - listitem [ref=e3099]:
+            - link "Facebook" [ref=e3100] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e3101]:
+            - link "Twitter" [ref=e3102] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e3103]:
+            - link "Instagram" [ref=e3104] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e3106]:
+        - heading "Make Money with Us" [level=6] [ref=e3107]
+        - list [ref=e3108]:
+          - listitem [ref=e3109]:
+            - link "Sell on Amazon" [ref=e3110] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e3111]:
+            - link "Sell under Amazon Accelerator" [ref=e3112] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e3113]:
+            - link "Protect and Build Your Brand" [ref=e3114] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e3115]:
+            - link "Amazon Global Selling" [ref=e3116] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e3117]:
+            - link "Supply to Amazon" [ref=e3118] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e3119]:
+            - link "Become an Affiliate" [ref=e3120] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e3121]:
+            - link "Fulfilment by Amazon" [ref=e3122] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e3123]:
+            - link "Advertise Your Products" [ref=e3124] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e3125]:
+            - link "Amazon Pay on Merchants" [ref=e3126] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e3128]:
+        - heading "Let Us Help You" [level=6] [ref=e3129]
+        - list [ref=e3130]:
+          - listitem [ref=e3131]:
+            - link "Your Account" [ref=e3132] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e3133]:
+            - link "Returns Centre" [ref=e3134] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e3135]:
+            - link "Recalls and Product Safety Alerts" [ref=e3136] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e3137]:
+            - link "100% Purchase Protection" [ref=e3138] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e3139]:
+            - link "Amazon App Download" [ref=e3140] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e3141]:
+            - link "Help" [ref=e3142] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e3144]:
+      - link "Amazon India Home" [ref=e3147] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e3150]:
+        - generic [ref=e3151]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e3152] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e3154]: English
+          - button "Expand to Change Language or Country" [ref=e3155] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e3156] [cursor=pointer]:
+          - generic [ref=e3158]: India
+    - generic "More on Amazon" [ref=e3159]:
+      - generic "More on Amazon" [ref=e3160]:
+        - list [ref=e3161]:
+          - listitem [ref=e3162]:
+            - link "AbeBooks Books, art & collectibles" [ref=e3163] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e3164]
+              - generic [ref=e3165]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e3166]
+          - listitem [ref=e3167]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e3168] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e3169]
+              - generic [ref=e3170]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e3171]
+          - listitem [ref=e3172]:
+            - link "Audible Download Audio Books" [ref=e3173] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e3174]
+              - generic [ref=e3175]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e3176]
+          - listitem [ref=e3177]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e3178] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e3179]
+              - generic [ref=e3180]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e3181]:
+          - listitem [ref=e3182]:
+            - link "Shopbop Designer Fashion Brands" [ref=e3183] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e3184]
+              - generic [ref=e3185]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e3186]
+          - listitem [ref=e3187]:
+            - link "Amazon Business Everything For Your Business" [ref=e3188] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e3189]
+              - generic [ref=e3190]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e3191]
+          - listitem [ref=e3192]:
+            - link "Prime Now 2-Hour Delivery on Everyday Items" [ref=e3193] [cursor=pointer]:
+              - /url: /now?ref=footer_amznow
+              - heading "Prime Now" [level=5] [ref=e3194]
+              - generic [ref=e3195]:
+                - text: 2-Hour Delivery
+                - text: on Everyday Items
+          - listitem [ref=e3196]
+          - listitem [ref=e3197]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e3198] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e3199]
+              - generic [ref=e3200]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+    - generic [ref=e3201]:
+      - list [ref=e3202]:
+        - listitem [ref=e3203]:
+          - link "Conditions of Use & Sale" [ref=e3204] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e3205]:
+          - link "Privacy Notice" [ref=e3206] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e3207]:
+          - link "Interest-Based Ads" [ref=e3208] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e3209]: © 1996-2025, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e3211]:
+    - iframe [ref=f4e2]:
+      - generic [active]:
+        - img [ref=f5e1]
+        - img [ref=f5e2]
+        - img [ref=f5e3]
+        - img [ref=f5e4]
+        - img [ref=f5e5]
+        - img [ref=f5e6]
+        - img [ref=f5e7]
+        - img [ref=f5e8]
+        - img [ref=f5e9]
+        - img [ref=f5e10]
+        - img [ref=f5e11]
+        - img [ref=f5e12]
+        - img [ref=f5e13]
+        - img [ref=f5e14]
+        - img [ref=f5e15]
+        - img [ref=f5e16]
+        - img [ref=f5e17]
+        - img [ref=f5e18]
+```

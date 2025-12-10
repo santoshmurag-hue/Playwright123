@@ -1,0 +1,1 @@
+{"patcConfig":{"rules":[{"id":"byg_desktop_optimistic_qs_t1","conditions":{"operator":"AND","criteria":[{"field":"clientName","equals":"Personalization_QuantityStepper","in":null,"operator":null,"criteria":null},{"field":"pageType","equals":"BeforeYouCheckout","in":null,"operator":null,"criteria":null}]},"experimentFlags":["isSnappy"]}]}}
