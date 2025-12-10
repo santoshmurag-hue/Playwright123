@@ -1,8 +1,8 @@
 import{test,expect} from '@playwright/test'
-import { Registerpage } from 'C:/Users/tende/OneDrive/Desktop/PlayWright_q/pageobjects/registerpage';  
+import { Registerpage } from 'D:/PlayWright_q/pageobjects/registerpage';  
 
 import excel from 'exceljs'
-import { readdatafromexcel } from 'C:/Users/tende/OneDrive/Desktop/PlayWright_q/genricutility/excelutility.js';
+import { readdatafromexcel } from 'D:/PlayWright_q/genricutility/excelutility.js';
 import { writeFile } from 'fs';
 
 
@@ -19,7 +19,7 @@ test('Read data from excel', async({page}) => {
     const rgspg= new Registerpage(page)
 await rgspg.gotourl('https://demoapps.qspiders.com/ui?scenario=1')
 await expect(page).toHaveTitle('DemoApps | Qspiders | Text Box')
-let path = 'C:/Users/tende/OneDrive/Desktop/PlayWright_q/testdata/excel.xlsx'
+let path = 'D:/PlayWright_q/testdata/excel.xlsx'
 let username = await readdatafromexcel(path,'Sheet1',1,1)
 let email = await readdatafromexcel(path,'Sheet1',2,1)
 let pwd = await readdatafromexcel(path,'Sheet1',3,1)
@@ -33,10 +33,10 @@ await expect(page.getByText('Registered successfully',{exact:true}).first()).toC
 test('write data', async({page}) => {
 
     let book = await new excel.Workbook()
-    await book.xlsx.readFile('C:/Users/tende/OneDrive/Desktop/PlayWright_q/testdata/excel.xlsx')
+    await book.xlsx.readFile('D:/PlayWright_q/testdata/excel.xlsx')
    let sheet= await book.getWorksheet('Sheet22')
    sheet.addRow(5).getCell(3).value='javascript'
-   await book.xlsx.writeFile('C:/Users/tende/OneDrive/Desktop/PlayWright_q/testdata/excel.xlsx')
+   await book.xlsx.writeFile('D:/PlayWright_q/testdata/excel.xlsx')
 
     
 });

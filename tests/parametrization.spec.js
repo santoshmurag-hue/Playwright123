@@ -1,6 +1,6 @@
 import{test,expect} from '@playwright/test'
-import { Registerpage } from 'C:/Users/tende/OneDrive/Desktop/PlayWright_q/pageobjects/registerpage';
- import para from 'C:/Users/tende/OneDrive/Desktop/PlayWright_q/testdata/parametrization.json'
+import { Registerpage } from 'D:/PlayWright_q/pageobjects/registerpage';
+ import para from 'D:/PlayWright_q/testdata/parametrization.json'
 
 
 test('Register user', async({page}) => {

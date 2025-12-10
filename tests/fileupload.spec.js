@@ -7,7 +7,7 @@ test('file upload', async({page}) => {
 
     await page.goto('https://testautomationpractice.blogspot.com/')
       //local path
-    await page.locator('#singleFileInput').setInputFiles("C:/Users/tende/OneDrive/Desktop/jenkins.txt")
+    await page.locator('#singleFileInput').setInputFiles("D:/jenkins.txt")
     await page.getByRole('button', {name:'Upload Single File'}).click()
     //await page.pause()
 });
